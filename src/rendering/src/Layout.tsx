@@ -10,6 +10,7 @@ import {
   LayoutServiceData,
   Field,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Analytics } from '@vercel/analytics/react';
 import Scripts from 'src/Scripts';
 // DEMO TEAM CUSTOMIZATION - CDP and Sitecore Send integration
 import { trackViewEvent } from './services/TrackingService';
@@ -90,6 +91,8 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
           <footer>{route && <Placeholder name="headless-footer" rendering={route} />}</footer>
         </div>
       </QueryClientProvider>
+
+      <Analytics />
       {/* END CUSTOMIZATION */}
     </>
   );
