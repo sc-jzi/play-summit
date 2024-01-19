@@ -1,0 +1,13 @@
+﻿---
+ID: "09d1b141-eafe-40ef-8706-0870eb58b862"
+Parent: "0db8b786-ee82-4013-9c69-aff3ecf70c7d"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Footer
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "120c0c14-2f58-4836-ad15-5ed275f99b6d"

@@ -1,0 +1,13 @@
+﻿---
+ID: "66325a7d-f9a8-47ea-b215-d9b9d9ba399c"
+Parent: "9d16951d-1cde-4426-a099-dbf244fa8420"
+Template: "ce8e28f6-c530-4bd5-9ca5-00d7d42c26c0"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Footer/Get Support/Tech Support
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00b05b5e-c4ad-4d89-a47f-9238bdd26956"

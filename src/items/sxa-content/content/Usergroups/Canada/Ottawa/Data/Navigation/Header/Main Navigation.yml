@@ -1,0 +1,21 @@
+﻿---
+ID: "fb774fd4-c0fa-452f-9044-73a1283d5f37"
+Parent: "75c476b2-1d32-4cff-bb9c-f05b035c0177"
+Template: "19ef3ce0-a831-4b51-99a9-c5d830ee25d8"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Header/Main Navigation
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{CE8E28F6-C530-4BD5-9CA5-00D7D42C26C0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "25a4d9ac-fa24-422d-adb5-3060c82fc609"
+    - ID: "8e108edb-61b7-4ced-a928-7bce9ad5910d"
+      Hint: Logo
+      Value: |
+        <image stylelabs-content-id="68900" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/68900/thumbnail" src="https://jzi-play.sitecoresandbox.cloud/api/public/content/621c2a2198914165bac76cd57b24451d?v=bb45c921" mediaid="" stylelabs-content-type="Image" alt="Sitecore Canada Usergroup Logo" height="180" width="180" />

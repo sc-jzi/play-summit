@@ -1,0 +1,13 @@
+﻿---
+ID: "290e8895-bd24-4fe8-8256-bb8f15b8857f"
+Parent: "650ab813-fe49-4767-9335-be0cf909d4d7"
+Template: "b762d567-87f5-493c-bb48-0c455d834457"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Texts
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "feaf7cde-1c6f-405e-aa40-6e4831ab0b3f"

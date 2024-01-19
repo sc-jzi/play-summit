@@ -1,0 +1,13 @@
+﻿---
+ID: "7dd38bc9-9018-4e3a-9e5e-96a3d642a19a"
+Parent: "b98ec28f-0f07-4b50-8728-e16a80c467e5"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Usergroups/Sponsor/Sponsor Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bf6830d5-f233-4e90-bdd4-1a18d9098a66"

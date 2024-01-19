@@ -1,0 +1,13 @@
+﻿---
+ID: "36c357ca-9b93-4c28-85ca-f266d3146f16"
+Parent: "d42e5c81-0c18-4bca-8a89-828dfd7c8939"
+Template: "d42e5c81-0c18-4bca-8a89-828dfd7c8939"
+Path: /sitecore/templates/Project/Usergroups/Headless Site/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4bae2d51-3377-40cf-a9ac-0f359a1907d7"

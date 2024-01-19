@@ -1,0 +1,17 @@
+﻿---
+ID: "0db8b786-ee82-4013-9c69-aff3ecf70c7d"
+Parent: "650ab813-fe49-4767-9335-be0cf909d4d7"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 750
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "551e09bf-7bfe-4aeb-b241-7e6e9252f89d"

@@ -1,0 +1,23 @@
+﻿---
+ID: "24f62b1d-0f45-486a-8a11-54f01bd4597d"
+Parent: "750c1fb3-edf9-41d9-97a4-c365be89773d"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Usergroups/Page Design Folder
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_chart.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{023F5D48-979D-4381-BC5E-149E36ABD3BD}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{4E460E19-CD47-4121-B2D7-942267A890E3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "87142fbc-a550-4235-86c9-864d2bda29c5"

@@ -1,0 +1,23 @@
+﻿---
+ID: "e0b0e93a-744b-4ab0-a055-53ed81d2577c"
+Parent: "23efc660-5a34-44f8-a054-320d641c34a4"
+Template: "e8e8c94f-4248-43c3-a79f-99fbb49d78e6"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Media
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "de8257d9-43aa-4eff-a2f4-2e9fbbd20e79"
+  Hint: AdditionalChildren
+  Value: |
+    {2F1A3518-A0D9-4484-B09E-3B0437CCF373}
+    {E432892F-EB59-4AB5-9FAE-423FDBAD0BDB}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A7F39EA2-9018-4622-891D-CB65627E5AF2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f3af962-cef9-4f38-9d1d-70c0d8b72065"

@@ -1,0 +1,54 @@
+﻿---
+ID: "0dc8866b-3f3d-4dac-8cb2-f330ea7a2bec"
+Parent: "0021f364-6413-4b6a-9983-361d5086b1f7"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Project/Usergroups/Navigation/MainNav
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: MainNav
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "edgeicons/32x32/main-nav.png"
+- ID: "17bb046a-a32a-41b3-8315-81217947611b"
+  Hint: ComponentQuery
+  Value: |
+    query ($language: String!) {
+      item(path: $contextItem, language: $language) {
+        id
+        path
+        ... on SiteConfiguration {
+          Logo {
+            jsonValue
+            alt
+          }
+        }
+      }
+      links : item(path: "{842934E4-186D-4A9D-92F2-D3A01EF0CBA9}", language: $language) {
+        displayName
+        children {
+          results {
+            displayName
+            field(name: "Link") {
+              ... on LinkField {
+                jsonValue
+              }
+            }
+          }
+        }
+      }
+    }
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Project/Usergroups/Main Navigation
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:./ancestor::*[@@templatename='Headless Site']/Data/Navigation"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "75a692f4-8018-4aac-ace7-e3ec0098b2cb"

@@ -1,0 +1,28 @@
+﻿---
+ID: "082549c4-c3a5-4333-8f30-7f3ebc26e284"
+Parent: "e6dd92a6-0920-4cae-b96d-d7f2bde65eff"
+Template: "b98ec28f-0f07-4b50-8728-e16a80c467e5"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Home/Sponsors/MNP Digital
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{13CAB4E7-16AB-40FF-8BFB-76F07804C877}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: MNP Digital
+    - ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
+      Hint: Title
+      Value: MNP Digital
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "921769b9-1ffb-4adf-9f0d-36b2c7a12ca8"
+    - ID: "c4b4618e-460c-4d9e-8675-05a1593ca8f4"
+      Hint: Logo
+      Value: |
+        <image stylelabs-content-id="68855" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/68855/thumbnail" src="https://jzi-play.sitecoresandbox.cloud/api/public/content/0bc54920e4c74a6e919ed9840638922b?v=70f82387" mediaid="" stylelabs-content-type="Image" alt="MNP Digital Logo" height="180" width="180" />

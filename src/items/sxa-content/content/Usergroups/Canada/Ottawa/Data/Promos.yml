@@ -1,0 +1,13 @@
+﻿---
+ID: "418333ab-4832-451a-93ab-c0c74cf13f9d"
+Parent: "650ab813-fe49-4767-9335-be0cf909d4d7"
+Template: "8fe7f8dc-cb5d-42c2-99f8-76608c243f10"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Promos
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3b2644a7-d4f4-4573-936d-a06ec530ed5f"

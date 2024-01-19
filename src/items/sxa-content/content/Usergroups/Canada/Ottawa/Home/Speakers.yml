@@ -1,0 +1,24 @@
+﻿---
+ID: "0a606c7c-cf7d-4d11-afba-839b87204b82"
+Parent: "c861ed3b-6174-4b59-9311-1408708df3de"
+Template: "3dac2248-d16d-4d08-844c-6ec73750caf2"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Home/Speakers
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6EEE99E4-03D3-470D-8967-586836BD3646}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Speakers
+    - ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
+      Hint: Title
+      Value: Speakers
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "93bf4a2b-48a1-4aaa-819d-1f050e062764"

@@ -1,0 +1,18 @@
+﻿---
+ID: "6d858146-244b-48ab-959a-c8d060857a6f"
+Parent: "ddc3e805-110e-44ac-8da6-7bda87463878"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Presentation/Headless Variants/Navigation/Default
+BranchID: "70519928-c595-4b2b-bb35-75022feecc4c"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{25F1A8E5-EB4C-4202-A9F7-A97DB52DA9AF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0d35392c-43e7-437d-9dd3-b58351290e40"

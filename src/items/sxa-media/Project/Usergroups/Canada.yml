@@ -1,0 +1,13 @@
+﻿---
+ID: "da20166e-1961-41fa-8bb7-7c9b85a792d8"
+Parent: "9739931d-3b89-4856-815c-ff26c5d36f52"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Usergroups/Canada
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "73554cc9-61ef-4e7c-8bb0-a23358f702b6"

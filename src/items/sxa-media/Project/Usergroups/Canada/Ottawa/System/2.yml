@@ -1,0 +1,13 @@
+﻿---
+ID: "8432d5d0-d0b4-47ac-818a-d47fd3f8fa8b"
+Parent: "f78ceccc-a228-4c78-ab32-3ac47923d21b"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Usergroups/Canada/Ottawa/System/2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11330cc0-56f5-4635-84a7-680f57b46515"

@@ -1,0 +1,27 @@
+﻿---
+ID: "25852b0c-a817-42e2-b349-dbefcc0f24df"
+Parent: "c861ed3b-6174-4b59-9311-1408708df3de"
+Template: "3dac2248-d16d-4d08-844c-6ec73750caf2"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Home/Contact
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F1CCFF8A-B11A-483E-A94B-0A3FB59474D1}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Contact
+    - ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
+      Hint: Title
+      Value: Contact
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "002a30d3-3b4d-4fb7-97f5-c2a54e75fe2d"

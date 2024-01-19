@@ -1,0 +1,21 @@
+﻿---
+ID: "49731227-4e2c-45c0-b5b2-fd44eb72de8a"
+Parent: "5eb268f4-4295-479f-a919-a731d9060fb6"
+Template: "ce8e28f6-c530-4bd5-9ca5-00d7d42c26c0"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Footer/Pages/News
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2bd09684-4a85-4163-aa25-653cc81886ff"
+    - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
+      Hint: Link
+      Value: |
+        <link class="" id="{0E4A63DA-7496-557E-BF80-5BD52255E431}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/news" />

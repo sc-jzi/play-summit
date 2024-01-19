@@ -1,0 +1,20 @@
+﻿---
+ID: "c4b4618e-460c-4d9e-8675-05a1593ca8f4"
+Parent: "7dd38bc9-9018-4e3a-9e5e-96a3d642a19a"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Usergroups/Sponsor/Sponsor Data/Logo
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Image
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "301380f0-db03-4418-9100-068eefa0e2b7"

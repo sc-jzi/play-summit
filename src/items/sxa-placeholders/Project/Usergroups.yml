@@ -1,0 +1,13 @@
+﻿---
+ID: "5364c5e2-ee1f-43b1-81ca-1e2698f72709"
+Parent: "f5f0fbe3-61ad-4967-a5d8-8d760331d6a1"
+Template: "3d281bf8-5336-4686-9dd6-ab4ab5b3fd5d"
+Path: /sitecore/layout/Placeholder Settings/Project/Usergroups
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0722ccad-ade1-424c-85ce-d1409401ed3c"

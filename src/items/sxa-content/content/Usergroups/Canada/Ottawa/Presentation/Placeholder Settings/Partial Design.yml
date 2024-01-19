@@ -1,0 +1,13 @@
+﻿---
+ID: "16d39098-dbc7-4532-95bc-fa16ab36c13b"
+Parent: "680d6cbb-e29b-407b-b420-fa860c73f1b3"
+Template: "52288e39-7830-4694-b62d-32a54c6ef7ba"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Presentation/Placeholder Settings/Partial Design
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "73178649-9341-4ce4-91a6-e0e03d744a6a"

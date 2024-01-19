@@ -1,0 +1,18 @@
+﻿---
+ID: "680d6cbb-e29b-407b-b420-fa860c73f1b3"
+Parent: "6c7734bb-bf8c-4434-b465-73530c66d594"
+Template: "52288e39-7830-4694-b62d-32a54c6ef7ba"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Presentation/Placeholder Settings
+BranchID: "464d8f5a-4cf5-449d-bbe8-9c2005af65e6"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C8F02ED4-0933-4D4D-B1C9-79A58E252BBF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6d6695ab-d546-4af1-9de4-2f685c9773d9"

@@ -1,0 +1,25 @@
+﻿---
+ID: "b98ec28f-0f07-4b50-8728-e16a80c467e5"
+Parent: "750c1fb3-edf9-41d9-97a4-c365be89773d"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Usergroups/Sponsor
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/heart.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {3DAC2248-D16D-4D08-844C-6EC73750CAF2}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{A167D56B-3118-49AF-B427-BAC64BE5AAFF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cb4cdc0c-7855-4c05-b790-f4ca4dad2af8"

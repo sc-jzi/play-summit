@@ -1,0 +1,13 @@
+﻿---
+ID: "a314a3a4-8db5-4c0f-baf4-7582f0dff861"
+Parent: "63d59f47-c12c-45c9-9957-f69a4fa038c8"
+Template: "ce8e28f6-c530-4bd5-9ca5-00d7d42c26c0"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Footer/Join Us/Become a Vendor
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b57135fc-7169-4403-8042-26702aa802f5"

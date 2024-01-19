@@ -1,0 +1,17 @@
+﻿---
+ID: "d69f8d0b-7029-4413-a46d-5326822952fb"
+Parent: "5eb268f4-4295-479f-a919-a731d9060fb6"
+Template: "ce8e28f6-c530-4bd5-9ca5-00d7d42c26c0"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Footer/Pages/Speakers
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d54aa8cf-fd8c-42ba-b55b-d5de1cf5a318"
+    - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
+      Hint: Link
+      Value: |
+        <link class="" id="{1F4B781B-F2A5-5647-99DF-C0C369162C4D}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/speakers" />

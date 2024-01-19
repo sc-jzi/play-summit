@@ -1,0 +1,13 @@
+﻿---
+ID: "9f4df2ae-87ad-4563-956a-7284e33edfb0"
+Parent: "650ab813-fe49-4767-9335-be0cf909d4d7"
+Template: "9c2d0fdf-4daf-4494-bde7-f857f1924825"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation Filters
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6cb8367-7496-455b-ac67-a6b6d9ccb927"

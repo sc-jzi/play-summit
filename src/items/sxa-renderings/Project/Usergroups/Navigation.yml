@@ -1,0 +1,13 @@
+﻿---
+ID: "0021f364-6413-4b6a-9983-361d5086b1f7"
+Parent: "550ec383-aa9d-4d4b-819b-0b3b6b171187"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Project/Usergroups/Navigation
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc86c5c8-8e7f-4e9c-a5d0-21240b44be10"

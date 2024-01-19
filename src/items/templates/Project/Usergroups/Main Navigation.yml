@@ -1,0 +1,20 @@
+﻿---
+ID: "19ef3ce0-a831-4b51-99a9-c5d830ee25d8"
+Parent: "750c1fb3-edf9-41d9-97a4-c365be89773d"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Usergroups/Main Navigation
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/navigate_right2.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8ae27fc-a9ac-4c8a-8f1f-a57b26b0f4e6"

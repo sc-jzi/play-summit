@@ -1,0 +1,13 @@
+﻿---
+ID: "d2c780a3-37ca-4394-a9ec-d197fa425813"
+Parent: "2f1a3518-a0d9-4484-b09e-3b0437ccf373"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Usergroups/Canada/Ottawa/Sitemaps
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d5bc341-5b08-4947-8cd0-6af01ffaa83a"

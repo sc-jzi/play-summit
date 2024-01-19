@@ -1,0 +1,13 @@
+﻿---
+ID: "e6b32f24-0ba3-453f-b308-f5cca0dd5622"
+Parent: "3dac2248-d16d-4d08-844c-6ec73750caf2"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Usergroups/Page/Content
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3c03ff4f-a507-40d1-a1ea-f2b5137ae7a3"

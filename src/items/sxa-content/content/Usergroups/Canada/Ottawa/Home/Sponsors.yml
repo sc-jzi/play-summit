@@ -1,0 +1,32 @@
+﻿---
+ID: "e6dd92a6-0920-4cae-b96d-d7f2bde65eff"
+Parent: "c861ed3b-6174-4b59-9311-1408708df3de"
+Template: "3dac2248-d16d-4d08-844c-6ec73750caf2"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Home/Sponsors
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {B98EC28F-0F07-4B50-8728-E16A80C467E5}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{AFB70F5B-F8C5-4E20-A7A2-C88B821AD1D9}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sponsors
+    - ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
+      Hint: Title
+      Value: Sponsors
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0bc4cb0a-7e68-4a41-8b64-06621ce8ca91"

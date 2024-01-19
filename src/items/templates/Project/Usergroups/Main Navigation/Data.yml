@@ -1,0 +1,13 @@
+﻿---
+ID: "699a3aef-7579-492b-9007-cd7376bae5e6"
+Parent: "19ef3ce0-a831-4b51-99a9-c5d830ee25d8"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Usergroups/Main Navigation/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "84372ea0-bfb3-44a1-a6be-9221378f73b1"
