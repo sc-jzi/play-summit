@@ -14,4 +14,8 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "39185873-86a2-4be6-be24-f80ab42bd699"
+      Value: "c4509593-8bed-4fbd-bc5e-9aa5c11e7b58"
+    - ID: "8e108edb-61b7-4ced-a928-7bce9ad5910d"
+      Hint: Logo
+      Value: |
+        <image stylelabs-content-id="68900" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/68900/thumbnail" src="https://jzi-play.sitecoresandbox.cloud/api/public/content/7aac7bda2c02441aa4eb49eb1a29782a?v=fbfa114d" mediaid="" stylelabs-content-type="Image" alt="Sitecore Canada Usergroup Logo" height="180" width="180" />
