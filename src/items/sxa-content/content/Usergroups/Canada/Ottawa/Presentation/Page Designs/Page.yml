@@ -1,0 +1,21 @@
+﻿---
+ID: "1570a729-865c-4e1a-b5e4-30051c3b759a"
+Parent: "a1c78f8b-82a5-45db-ad02-c14e36b61aa9"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Presentation/Page Designs/Page
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{C52B74EF-57E4-44C6-9E75-6F549B043EBF}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{2E100E55-C583-4AA3-8D22-1D82F3F6789B}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "43a7966e-0d72-40c8-a11d-73b8248ce5b7"

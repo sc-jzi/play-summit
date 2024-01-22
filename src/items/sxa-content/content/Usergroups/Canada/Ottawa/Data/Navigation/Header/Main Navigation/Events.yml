@@ -1,0 +1,17 @@
+﻿---
+ID: "7ab89405-9f1c-4b2f-9cfb-a7579d7de694"
+Parent: "fb774fd4-c0fa-452f-9044-73a1283d5f37"
+Template: "ce8e28f6-c530-4bd5-9ca5-00d7d42c26c0"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Header/Main Navigation/Events
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "475a209d-5952-4602-9ffb-89b84365223c"
+    - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{F34D360D-AB07-406E-B026-44D63BCDF16E}" />

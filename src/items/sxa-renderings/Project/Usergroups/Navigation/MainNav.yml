@@ -13,18 +13,16 @@ SharedFields:
 - ID: "17bb046a-a32a-41b3-8315-81217947611b"
   Hint: ComponentQuery
   Value: |
-    query ($language: String!) {
-      item(path: $contextItem, language: $language) {
+    query ($datasource: String!, $language: String!) {
+      item(path: $datasource, language: $language) {
         id
         path
-        ... on SiteConfiguration {
-          Logo {
-            jsonValue
-            alt
-          }
+        field (name: "Logo")
+        {
+          jsonValue
         }
       }
-      links : item(path: "{842934E4-186D-4A9D-92F2-D3A01EF0CBA9}", language: $language) {
+      links : item(path: $datasource, language: $language) {
         displayName
         children {
           results {
@@ -51,4 +49,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "75a692f4-8018-4aac-ace7-e3ec0098b2cb"
+      Value: "01a70501-7bb2-45b5-b910-3adf83462ddf"

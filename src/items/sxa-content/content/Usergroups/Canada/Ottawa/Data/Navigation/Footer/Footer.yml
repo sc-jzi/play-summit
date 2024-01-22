@@ -1,0 +1,17 @@
+﻿---
+ID: "d6ed5522-76bf-4c16-a09e-2bcc61354bf9"
+Parent: "09d1b141-eafe-40ef-8706-0870eb58b862"
+Template: "19ef3ce0-a831-4b51-99a9-c5d830ee25d8"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Footer/Footer
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "39185873-86a2-4be6-be24-f80ab42bd699"
