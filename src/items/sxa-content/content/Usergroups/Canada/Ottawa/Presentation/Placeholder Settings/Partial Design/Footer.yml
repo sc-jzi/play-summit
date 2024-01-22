@@ -1,0 +1,17 @@
+﻿---
+ID: "16bdbd10-c7d0-4782-ba16-45de9a13becd"
+Parent: "16d39098-dbc7-4532-95bc-fa16ab36c13b"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Presentation/Placeholder Settings/Partial Design/Footer
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-footer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5b0fb313-3470-40e2-9809-cd7acec24b2c"
