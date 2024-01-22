@@ -1,0 +1,24 @@
+﻿---
+ID: "c785c54e-5deb-4bec-8726-eadb6a45a49b"
+Parent: "0a606c7c-cf7d-4d11-afba-839b87204b82"
+Template: "3dac2248-d16d-4d08-844c-6ec73750caf2"
+Path: "/sitecore/content/Usergroups/Canada/Ottawa/Home/Speakers/speaker-sign-up"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{DBE0803A-0C30-455A-96E5-FECF6071419B}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Sign up to Speak!"
+    - ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
+      Hint: Title
+      Value: "Sign up to Speak!"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c5621bea-b9f4-45e6-9787-1e6e8cfa2efa"

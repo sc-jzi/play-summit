@@ -1,0 +1,24 @@
+﻿---
+ID: "8235456d-6cf7-4b3d-9bec-f10bdc87fb22"
+Parent: "e6dd92a6-0920-4cae-b96d-d7f2bde65eff"
+Template: "3dac2248-d16d-4d08-844c-6ec73750caf2"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Home/Sponsors/Become a sponsor
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{0A1F4A28-8418-480E-88A7-1CDF8212A9BA}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Become a sponsor
+    - ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
+      Hint: Title
+      Value: Become a sponsor
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a7e02913-5ee6-486a-b5dc-199b76aa1484"

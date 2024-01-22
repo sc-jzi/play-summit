@@ -2,7 +2,7 @@
 ID: "d3a1eefb-89a2-4edd-b10a-b0a90dc7301b"
 Parent: "63d59f47-c12c-45c9-9957-f69a4fa038c8"
 Template: "ce8e28f6-c530-4bd5-9ca5-00d7d42c26c0"
-Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Footer/Footer/Join Us/Become a Sponsor
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Footer/Footer/Join Us/Become a sponsor
 Languages:
 - Language: en
   Versions:
@@ -10,8 +10,8 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6dca1450-69a9-4987-8fd8-bcc6f7d96984"
+      Value: "ceef82b9-4077-40e9-81c4-70b161d4c1b2"
     - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{6CF37FF6-755C-5B1A-B5EB-63F03481DB4A}" />
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{8235456D-6CF7-4B3D-9BEC-F10BDC87FB22}" />

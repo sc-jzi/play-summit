@@ -2,7 +2,7 @@
 ID: "f8de3278-c233-4e73-a691-00e251c023ab"
 Parent: "63d59f47-c12c-45c9-9957-f69a4fa038c8"
 Template: "ce8e28f6-c530-4bd5-9ca5-00d7d42c26c0"
-Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Footer/Footer/Join Us/Book Tickets
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Footer/Footer/Join Us/Get notifications for the next event
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
@@ -14,8 +14,8 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4d70dca2-da60-414d-8a3e-5fff6af20e27"
+      Value: "a8fba6fe-8378-49f1-99a9-0fd84d9487c4"
     - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
       Hint: Link
       Value: |
-        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{A7BDFBDA-D5CC-5388-A039-F262BC768721}" />
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{545A9090-834F-43EF-A69C-2949DC287A4D}" />

@@ -6,7 +6,7 @@ Path: /sitecore/content/Usergroups/Canada/Ottawa/Presentation/Page Designs/Page
 SharedFields:
 - ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
   Hint: PartialDesigns
-  Value: "{C52B74EF-57E4-44C6-9E75-6F549B043EBF}"
+  Value: "{C52B74EF-57E4-44C6-9E75-6F549B043EBF}|{4B3B8CFB-A3AE-45C7-A96D-92ADE8BDD400}"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "43a7966e-0d72-40c8-a11d-73b8248ce5b7"
+      Value: "6b29decf-e878-4ee8-b124-3cf287d79078"

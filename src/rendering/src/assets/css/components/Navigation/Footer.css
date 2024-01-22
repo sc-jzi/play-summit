@@ -36,12 +36,10 @@
   }
 
   &-legal {
-    @include flex--sb;
 
     @apply text-sm text-gray-lighter;
 
     &-links {
-      @include flex--fs-w;
 
       @apply w-full text-gray-lighter;
 

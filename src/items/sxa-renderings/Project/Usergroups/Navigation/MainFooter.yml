@@ -2,32 +2,29 @@
 ID: "46405e6a-564e-4fc8-bc40-43d381b793de"
 Parent: "0021f364-6413-4b6a-9983-361d5086b1f7"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/Usergroups/Navigation/Footer
+Path: /sitecore/layout/Renderings/Project/Usergroups/Navigation/MainFooter
 SharedFields:
 - ID: "003a72cd-4cd6-4392-9862-41d4159929cd"
   Hint: Data source
   Value: 
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Footer
+  Value: MainFooter
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: edgeicons/32x32/footer.png
 - ID: "17bb046a-a32a-41b3-8315-81217947611b"
   Hint: ComponentQuery
   Value: |
-    query ($language: String!) {
-      item(path: "{4790380A-3F0C-443A-A954-269ECB2D5566}" language: $language) {
+    query ($datasource: String!, $language: String!) {
+      item(path: $datasource, language: $language) {
         id
         path
-        ... on SiteConfiguration {
-          footerLogo {
-            jsonValue
-            alt
-          }
+        logo: field(name: "Logo") {
+          jsonValue
         }
       }
-      links : item(path: "{ECDD5437-0848-47BE-ACCD-04BB1D631C94}", language: $language) {
+      links : item(path: $datasource, language: $language) {
         displayName
         children {
           results {
@@ -68,4 +65,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0ed81f59-a70c-4f77-b87c-6d292075391f"
+      Value: "fe1bb8d4-75e1-4d7a-9f93-8bd719d9e309"

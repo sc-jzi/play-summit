@@ -2,7 +2,7 @@
 ID: "7dccd315-1138-4801-b2bf-8d94b3134658"
 Parent: "5eb268f4-4295-479f-a919-a731d9060fb6"
 Template: "ce8e28f6-c530-4bd5-9ca5-00d7d42c26c0"
-Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Footer/Footer/Pages/Vendors
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Data/Navigation/Footer/Footer/Pages/Newsletter
 Languages:
 - Language: en
   Versions:
@@ -10,8 +10,8 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d4d42ba4-b6ef-4ede-894c-f7184b36c781"
+      Value: "679c226c-d890-4f7c-bf64-d8d498bbe8a3"
     - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
       Hint: Link
       Value: |
-        <link class="" id="{774E44E8-0F30-5879-B847-AD233FFB41AA}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/vendors" />
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{545A9090-834F-43EF-A69C-2949DC287A4D}" />

@@ -2,14 +2,20 @@ import Link from 'next/link';
 import { ImageField, Image } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faYoutube, faLinkedin, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import {
+  IconLookup,
+  IconDefinition,
+  findIconDefinition
+} from '@fortawesome/fontawesome-svg-core'
 
 export type FooterProps = ComponentProps & {
   fields: {
     data: {
       item: {
-        footerLogo: {
+        logo: {
           jsonValue: ImageField;
-          alt: string;
         };
       };
       links: {
@@ -53,14 +59,13 @@ export type FooterProps = ComponentProps & {
 const MainFooter = (props: FooterProps): JSX.Element => {
   const newDate = new Date();
   const sxaStyles = `${props.params?.styles || ''}`;
-
+console.log(props);
   return (
     <div className={`footer container ${sxaStyles}`}>
       <div className="footer-banner">
         <Link href="/">
           <Image
-            field={props.fields?.data.item.footerLogo.jsonValue}
-            alt={props.fields?.data.item.footerLogo.alt}
+            field={props.fields?.data.item.logo.jsonValue}
             loading="lazy"
           />
         </Link>
@@ -71,11 +76,6 @@ const MainFooter = (props: FooterProps): JSX.Element => {
             <li>{item.displayName}</li>
             {item.children.results.map((footerLink, footerLinkIndex) => (
               <li key={footerLinkIndex}>
-                {/* Commenting out cause of error: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type  */}
-                {footerLink.icon.value && (
-                  <i className="fa-brands fa-facebook"/>
-                )}
-               
                 <Link href={footerLink.field?.jsonValue?.value?.href ?? '#'}>
                   {footerLink.title.value ? footerLink.title.value : footerLink.displayName}
                 </Link>
@@ -84,16 +84,10 @@ const MainFooter = (props: FooterProps): JSX.Element => {
           </ul>
         ))}
       </footer>
-      <div className="footer-legal">
+      <div className="footer-legal text-center">
         <div className="footer-legal-links">
           <div>
-            <p>Copyright © 2014-{newDate.getFullYear()} PLAY! Summit</p>
-          </div>
-          <div>
-            <Link href="/privacy">Privacy Policy</Link>
-          </div>
-          <div>
-            <Link href="/terms">Terms of Use</Link>
+            <p>Copyright © 2024-{newDate.getFullYear()} Sitecore Usergroup Canada</p>
           </div>
         </div>
       </div>
