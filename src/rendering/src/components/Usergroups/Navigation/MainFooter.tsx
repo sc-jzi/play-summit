@@ -2,13 +2,6 @@ import Link from 'next/link';
 import { ImageField, Image } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faYoutube, faLinkedin, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
-import {
-  IconLookup,
-  IconDefinition,
-  findIconDefinition
-} from '@fortawesome/fontawesome-svg-core'
 
 export type FooterProps = ComponentProps & {
   fields: {
