@@ -17,6 +17,12 @@ Languages:
     - ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
       Hint: Title
       Value: $name
+    - ID: "83466b92-ca33-4781-9edf-bdb8f799936f"
+      Hint: Content Type
+      Value: Webpage
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6d3dd8d3-6a1d-48c1-9726-2df102210b60"
+      Value: "cd126493-a76e-4820-81c8-3688ea815634"
+    - ID: "b875d4c5-daa1-4c40-a595-494cfb4c1830"
+      Hint: Search Title
+      Value: $name

@@ -1,10 +1,10 @@
 {
-  "name": "playwebsite",
+  "name": "ottawa",
   "description": "PLAY! Summit and PLAY! SHOP websites",
   "version": "1.0.0",
   "private": true,
   "config": {
-    "appName": "playwebsite",
+    "appName": "Ottawa",
     "rootPlaceholders": [
       "headless-header",
       "headless-main",

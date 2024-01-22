@@ -13,16 +13,29 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "4ad6014a-d341-4afd-bf35-65e581f84c0b"
+      Hint: Website
+      Value: |
+        <link text="Sitecore" linktype="external" url="https://www.sitecore.com/" anchor="" target="_blank" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Sitecore
     - ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
       Hint: Title
       Value: Sitecore
+    - ID: "83466b92-ca33-4781-9edf-bdb8f799936f"
+      Hint: Content Type
+      Value: Sponsor
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e4821864-e56f-4fbf-b99f-2d022bd7a635"
+      Value: "48654440-8ede-4b2d-b835-afb1106eff9a"
+    - ID: "b875d4c5-daa1-4c40-a595-494cfb4c1830"
+      Hint: Search Title
+      Value: Sitecore
     - ID: "c4b4618e-460c-4d9e-8675-05a1593ca8f4"
       Hint: Logo
       Value: |
         <image stylelabs-content-id="68895" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/68895/thumbnail" src="https://jzi-play.sitecoresandbox.cloud/api/public/content/73c20ab7cd864f57b88d4705cd376364?v=c1d0f753" mediaid="" stylelabs-content-type="Image" alt="Sitecore Logo" height="180" width="40" />
+    - ID: "c8a1a48b-ebc9-4e7d-bb89-9b9955f5ac52"
+      Hint: Search Description
+      Value: "Differentiate your brand with the only complete, composable, cloud-native digital experience platform."

@@ -23,6 +23,15 @@ Languages:
     - ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
       Hint: Title
       Value: Ottawa
+    - ID: "83466b92-ca33-4781-9edf-bdb8f799936f"
+      Hint: Content Type
+      Value: Landingpage
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e98e61ea-7c17-46b8-a2cc-7bf0ec9a6f3e"
+      Value: "dfd95d2c-e892-42a8-9b53-9bc4821dbf06"
+    - ID: "b875d4c5-daa1-4c40-a595-494cfb4c1830"
+      Hint: Search Title
+      Value: Sitecore Usergroup Canada
+    - ID: "c8a1a48b-ebc9-4e7d-bb89-9b9955f5ac52"
+      Hint: Search Description
+      Value: Sitecore Usergroup Canada

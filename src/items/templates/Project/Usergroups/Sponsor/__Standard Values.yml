@@ -8,6 +8,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "83466b92-ca33-4781-9edf-bdb8f799936f"
+      Hint: Content Type
+      Value: Sponsor
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "927a4ff9-0ed9-4cb9-bfd8-1d885cfde76b"
+      Value: "dd6d0f04-2eba-41c1-909a-298e04f9d8cf"

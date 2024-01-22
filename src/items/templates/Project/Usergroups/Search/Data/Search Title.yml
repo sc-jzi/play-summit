@@ -1,15 +1,15 @@
 ﻿---
-ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
-Parent: "e6b32f24-0ba3-453f-b308-f5cca0dd5622"
+ID: "b875d4c5-daa1-4c40-a595-494cfb4c1830"
+Parent: "7911a234-7f58-44eb-90f8-2a394dd28740"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/Usergroups/Page/Content/Title
+Path: /sitecore/templates/Project/Usergroups/Search/Data/Search Title
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 1
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -17,4 +17,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9e452e8d-bb97-43d5-a910-1195437b1058"
+      Value: "68478b72-b835-4634-a725-4543ef5aff7d"

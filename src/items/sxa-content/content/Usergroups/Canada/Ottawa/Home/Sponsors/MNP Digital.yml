@@ -13,16 +13,29 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "4ad6014a-d341-4afd-bf35-65e581f84c0b"
+      Hint: Website
+      Value: |
+        <link text="MNP Digital" linktype="external" url="https://mnpdigital.ca/" anchor="" target="_blank" />
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: MNP Digital
     - ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
       Hint: Title
       Value: MNP Digital
+    - ID: "83466b92-ca33-4781-9edf-bdb8f799936f"
+      Hint: Content Type
+      Value: Sponsor
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "921769b9-1ffb-4adf-9f0d-36b2c7a12ca8"
+      Value: "2e36096e-79ef-461d-9ed5-8c837d9d34a3"
+    - ID: "b875d4c5-daa1-4c40-a595-494cfb4c1830"
+      Hint: Search Title
+      Value: MNP Digital
     - ID: "c4b4618e-460c-4d9e-8675-05a1593ca8f4"
       Hint: Logo
       Value: |
         <image stylelabs-content-id="68855" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/68855/thumbnail" src="https://jzi-play.sitecoresandbox.cloud/api/public/content/0bc54920e4c74a6e919ed9840638922b?v=70f82387" mediaid="" stylelabs-content-type="Image" alt="MNP Digital Logo" height="180" width="180" />
+    - ID: "c8a1a48b-ebc9-4e7d-bb89-9b9955f5ac52"
+      Hint: Search Description
+      Value: Sitecore partner with offices in Alberta, British Colombia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, Quebec and Saskatchewan.
