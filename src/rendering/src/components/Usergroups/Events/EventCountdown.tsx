@@ -1,5 +1,3 @@
-import Link from 'next/link';
-import { DateField, ImageField, Image } from '@sitecore-jss/sitecore-jss-nextjs';
 import { useEffect, useState } from 'react';
 import { ComponentProps } from 'lib/component-props';
 import React from 'react';
@@ -16,7 +14,7 @@ export type NextEventProps = ComponentProps & {
     }
 };
 
-const NextEvent = (props: NextEventProps): JSX.Element => {
+const EventCountdown = (props: NextEventProps): JSX.Element => {
 
     const sxaStyles = `${props.params?.styles || ''}`;
     console.log(props);
@@ -77,4 +75,4 @@ const NextEvent = (props: NextEventProps): JSX.Element => {
     );
 };
 
-export const Default = NextEvent;
+export const Default = EventCountdown;
