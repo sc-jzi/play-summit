@@ -1,0 +1,23 @@
+﻿---
+ID: "9cd81fad-ea45-41bc-845a-35aed3092005"
+Parent: "7380bdee-9e9c-4c10-8451-eb6b13eb6f55"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Project/Usergroups/Events/EventCountdown
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: EventCountdown
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Project/Usergroups/Event
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:./ancestor::*[@@templatename='Headless Site']/Home/Events"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "80f0f224-0287-4f32-a74d-a2e77de418c9"

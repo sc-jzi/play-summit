@@ -158,6 +158,9 @@
 @import './components/Speakers/SpeakerList.css';
 @import './components/Speakers/SpeakersGrid.css';
 
+/* Usergroup Event Countdown */
+@import './components/Events/EventCountdown.css';
+
 /* Sponsors */
 @import './components/Sponsors/SelectedSponsorsGrid.css';
 

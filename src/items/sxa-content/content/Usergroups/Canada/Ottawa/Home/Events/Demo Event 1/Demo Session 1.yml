@@ -1,0 +1,21 @@
+﻿---
+ID: "08ca3e72-7ca4-4c2f-b546-9c76f46d1611"
+Parent: "b2b969e1-3b3a-4301-81ae-02f6fcc42760"
+Template: "7851639e-b2cd-41f4-be5d-0ec055c69345"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Home/Events/Demo Event 1/Demo Session 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07525108-1627-4436-ad7d-42ab244e80d1"
+      Hint: Short Description
+      Value: |
+        <h3>Unannounced talk</h3>
+        <p>This talk is yet to be announced. Please <a href="~/link.aspx?_id=C785C54E5DEB4BEC8726EADB6A45A49B&amp;_z=z">contact us</a>&nbsp;if you are interested in presenting.</p>
+    - ID: "859df375-d8ad-437f-9b27-18b0fa3b5f62"
+      Hint: Topic
+      Value: Demo Topic 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "06d1df10-7c2a-4207-964b-8fd4d6a0e55a"

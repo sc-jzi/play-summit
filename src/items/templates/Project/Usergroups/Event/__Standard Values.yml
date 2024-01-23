@@ -1,0 +1,25 @@
+﻿---
+ID: "91034df2-83fa-4fe9-a746-22d75387be16"
+Parent: "14557aea-951b-492c-80d2-80d723a431cf"
+Template: "14557aea-951b-492c-80d2-80d723a431cf"
+Path: /sitecore/templates/Project/Usergroups/Event/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {7851639E-B2CD-41F4-BE5D-0EC055C69345}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "83466b92-ca33-4781-9edf-bdb8f799936f"
+      Hint: Content Type
+      Value: Event
+    - ID: "84eaaf6e-911c-46f7-953d-136959e101ce"
+      Hint: Content
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b032be75-343c-4921-a7e5-26b5d9804282"

@@ -1,0 +1,21 @@
+﻿---
+ID: "9274d36d-816a-424e-bd35-f58d864bbdcc"
+Parent: "7851639e-b2cd-41f4-be5d-0ec055c69345"
+Template: "7851639e-b2cd-41f4-be5d-0ec055c69345"
+Path: /sitecore/templates/Project/Usergroups/Session/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07525108-1627-4436-ad7d-42ab244e80d1"
+      Hint: Short Description
+      Value: |
+        <h3>Unannounced talk</h3>
+        <p>This talk is yet to be announced. Please <a href="~/link.aspx?_id=C785C54E5DEB4BEC8726EADB6A45A49B&amp;_z=z">contact us</a>&nbsp;if you are interested in presenting.</p>
+    - ID: "859df375-d8ad-437f-9b27-18b0fa3b5f62"
+      Hint: Topic
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ee783ea-924a-44c5-a462-e8fc5ab26f3d"

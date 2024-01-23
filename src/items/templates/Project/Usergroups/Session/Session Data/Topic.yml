@@ -1,0 +1,20 @@
+﻿---
+ID: "859df375-d8ad-437f-9b27-18b0fa3b5f62"
+Parent: "3de53462-f22e-414c-b554-686198ad2b6b"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Usergroups/Session/Session Data/Topic
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "51613ad7-0827-46f1-9ded-5c7fe093b2d7"

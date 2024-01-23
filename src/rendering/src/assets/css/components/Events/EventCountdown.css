@@ -1,0 +1,42 @@
+.next-event {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+
+    &-left {
+        padding: 2rem;
+        background: #CBD5E0;
+        text-align: right;
+
+        p:first-of-type {
+            font-weight: 700;
+            font-size: 3rem;
+        }
+
+    }
+
+    &-right {
+        display: grid;
+        grid-gap: 1.25rem;
+        grid-template-columns: repeat(4, minmax(0px, 1fr));
+        padding: 2rem;
+        background: #333378;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+
+        > div {
+            > div {
+                text-align: center;
+
+            }
+
+            div:first-of-type {
+                > p {
+                    font-weight: 700;
+                    font-size: 2.25rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+﻿---
+ID: "614c01ff-52ba-4f09-8f0f-6f3ef3e18621"
+Parent: "14557aea-951b-492c-80d2-80d723a431cf"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Usergroups/Event/Event Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c02152ac-3169-4b5b-92a7-8ba39275f5a8"

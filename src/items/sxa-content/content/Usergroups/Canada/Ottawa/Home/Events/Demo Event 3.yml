@@ -1,0 +1,30 @@
+﻿---
+ID: "1d982276-28d3-4d73-9bf3-9d000809e198"
+Parent: "f34d360d-ab07-406e-b026-44d63bcdf16e"
+Template: "14557aea-951b-492c-80d2-80d723a431cf"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Home/Events/Demo Event 3
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{309FE6F2-2478-4877-910D-0D27475235D2}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Demo Event 3
+    - ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
+      Hint: Title
+      Value: Demo Event 3
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "458e2e49-2c69-4eab-b5ab-a15167a3aa9f"
+    - ID: "b875d4c5-daa1-4c40-a595-494cfb4c1830"
+      Hint: Search Title
+      Value: Demo Event 3
+    - ID: "dae836bc-c63d-4c8f-bf1d-13221313ee11"
+      Hint: Date
+      Value: 20240227T050000Z

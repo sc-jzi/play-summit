@@ -1,0 +1,13 @@
+﻿---
+ID: "a9cb7c83-68a7-4fd3-b8e2-8f2bf8d67b73"
+Parent: "e55e68b3-ac0d-4910-a40c-ac37a47e511d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Usergroups/Speaker/Speaker Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a394af2-96ce-4b02-ae65-285686844fa4"

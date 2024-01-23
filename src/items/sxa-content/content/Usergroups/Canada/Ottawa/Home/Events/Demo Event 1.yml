@@ -1,0 +1,39 @@
+﻿---
+ID: "b2b969e1-3b3a-4301-81ae-02f6fcc42760"
+Parent: "f34d360d-ab07-406e-b026-44d63bcdf16e"
+Template: "14557aea-951b-492c-80d2-80d723a431cf"
+Path: /sitecore/content/Usergroups/Canada/Ottawa/Home/Events/Demo Event 1
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{FD1A45D0-3D23-4BB4-9C74-29DE2EAB9554}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Demo Event 1
+    - ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
+      Hint: Title
+      Value: Demo Event 1
+    - ID: "84eaaf6e-911c-46f7-953d-136959e101ce"
+      Hint: Content
+      Value: <p>Join us for the 1st Ottawa Sitecore Technical User Group meetup of 2024, along with food and drinks. We're at MNP Digital's Ottawa office for this event. There will be talks from experts from the Sitecore community as well as time to catch up with contacts and make new connections.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3e40ca72-350a-41cb-a9dd-6b704a369995"
+    - ID: "b2152bc5-6faf-458a-957a-c4eedb198853"
+      Hint: Venue
+      Value: Demo Venue
+    - ID: "b875d4c5-daa1-4c40-a595-494cfb4c1830"
+      Hint: Search Title
+      Value: Demo Event 1
+    - ID: "c8a1a48b-ebc9-4e7d-bb89-9b9955f5ac52"
+      Hint: Search Description
+      Value: Join us for the 1st Ottawa Sitecore Technical User Group meetup of 2024, along with food and drinks. We're at MNP Digital's Ottawa office for this event. There will be talks from experts from the Sitecore community as well as time to catch up with contacts and make new connections.
+    - ID: "dae836bc-c63d-4c8f-bf1d-13221313ee11"
+      Hint: Date
+      Value: 20240206T230000Z

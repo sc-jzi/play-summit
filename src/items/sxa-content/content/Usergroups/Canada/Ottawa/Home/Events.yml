@@ -4,6 +4,11 @@ Parent: "c861ed3b-6174-4b59-9311-1408708df3de"
 Template: "3dac2248-d16d-4d08-844c-6ec73750caf2"
 Path: /sitecore/content/Usergroups/Canada/Ottawa/Home/Events
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {14557AEA-951B-492C-80D2-80D723A431CF}
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
@@ -24,4 +29,7 @@ Languages:
       Value: Events
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "afc0aa27-55e2-460b-af6f-edf7d8e0cf45"
+      Value: "825d0057-99e5-4966-8020-b6518ad3b127"
+    - ID: "b875d4c5-daa1-4c40-a595-494cfb4c1830"
+      Hint: Search Title
+      Value: Sitecore Canada Usergroup Events

@@ -16,6 +16,9 @@ SharedFields:
     {2AF2DC09-057F-48C2-A9F4-9779ADF83659}
     {30869218-C3AD-40F9-BCFF-6837127ECD8F}
     {A7228B46-610D-4A17-9F61-649F3A30AAAE}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{FE0D49A4-F3EB-4C6E-9ACB-CB77E128E0D0}"
@@ -26,4 +29,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8f28b7d0-4527-4547-9766-34ff430bc299"
+      Value: "b200ee0b-7c37-4f4e-8729-ada84a4bfaf9"
