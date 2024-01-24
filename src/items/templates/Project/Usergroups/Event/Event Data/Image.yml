@@ -1,0 +1,20 @@
+﻿---
+ID: "fb8bcf18-b771-494c-b74f-5d6271c2684a"
+Parent: "614c01ff-52ba-4f09-8f0f-6f3ef3e18621"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Usergroups/Event/Event Data/Image
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Image
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f727ea6c-58ff-4b4c-8536-4d8acb892472"

@@ -1,0 +1,20 @@
+﻿---
+ID: "7a0803b3-a25e-424c-8fd6-a76d3019a49b"
+Parent: "614c01ff-52ba-4f09-8f0f-6f3ef3e18621"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Usergroups/Event/Event Data/Blurb
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 250
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce4e5257-5e9b-41c1-b6cc-744af1fa7683"

@@ -24,7 +24,7 @@ Languages:
       Value: <p>Join us for the 1st Ottawa Sitecore Technical User Group meetup of 2024, along with food and drinks. We're at MNP Digital's Ottawa office for this event. There will be talks from experts from the Sitecore community as well as time to catch up with contacts and make new connections.</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3e40ca72-350a-41cb-a9dd-6b704a369995"
+      Value: "f24cd42e-2d4f-4f34-8e25-d04f130d72dd"
     - ID: "b2152bc5-6faf-458a-957a-c4eedb198853"
       Hint: Venue
       Value: Demo Venue
@@ -37,3 +37,7 @@ Languages:
     - ID: "dae836bc-c63d-4c8f-bf1d-13221313ee11"
       Hint: Date
       Value: 20240206T230000Z
+    - ID: "fb8bcf18-b771-494c-b74f-5d6271c2684a"
+      Hint: Image
+      Value: |
+        <image stylelabs-content-id="64091" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/64091/thumbnail" src="https://jzi-play.sitecoresandbox.cloud/api/public/content/74e104de7d9946ae87084b0c89159c06?v=eda5a3bd" mediaid="" stylelabs-content-type="Image" alt="Demo Image"  />
