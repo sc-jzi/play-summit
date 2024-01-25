@@ -27,8 +27,11 @@ This repository contains:
   - `\Foundation\BranchPresets`: .Net project to enable branch presets in Sitecore.
   - `\icons`: Icons used by the Sitecore renderings.
   - `\items`: Serialized items using Sitecore Content Serialization (SCS).
+  - `\components`: Serialized Sitecore Components components, styles and datasources.
+  - `\personalize`: Serialized Sitecore Embedded Personalization data.
   - `\platform`: .Net project with Sitecore configuration, pipeline processors, custom fields, and utility pages.
   - `\rendering`: Sitecore JSS Next.js project connected to the Docker CM using the XM Edge GraphQL development endpoint.
+- A `\ch-one` folder that is a Git submodule referencing <https://github.com/Sitecore/Sitecore.Demo.CHONE> (used for [Demo Portal](https://portal.sitecoredemo.com/) deployments).
 
 ### Configured for Sitecore-based workflow
 
@@ -50,6 +53,43 @@ The `\items` folder contains serialized Sitecore content items for this demo. Th
 
 See [Sitecore Content Serialization documentation](https://doc.sitecore.com/xp/en/developers/103/developer-tools/sitecore-content-serialization.html) for more information.
 
+### Serialized Sitecore Components
+
+The `\components` folder contains serialized Sitecore Components components, styles and datasources. The scripts that take care of the serialization are located at the root of the project.
+
+To push the serialized assets to your Sitecore Components library, use the following command:
+
+```ps1
+.\componentspush.ps1 -libraryId your_library_id -apiKey your_api_key
+```
+
+To serialize any new changes to the repo use the following command:
+
+```ps1
+.\componentspull.ps1 -libraryId your_library_id -apiKey your_api_key
+```
+
+You can find your library ID and API key by going to your Sitecore Components library Settings tab. Your library ID is located in the url between `/libraries/` and `/settings`. Your API key is in a section of the page called "Your component library API key".
+
+### Serialized Sitecore Embedded Personalization
+
+The `\personalize` folder contains serialized Sitecore Embedded Personalization data. The scripts that take care of the serialization are located at the root of the project.
+
+To push the serialized data, use the following command:
+
+```ps1
+.\personalize-push.ps1 -token your_personalize_token
+```
+
+To serialize any new changes to the repo use the following command:
+
+```ps1
+.\personalize-pull.ps1 -token your_personalize_token
+```
+
+You can find the token by inspecting network requests (look for the 'Authorization' header) in Chrome to the following url: `https://api-engage-us.sitecorecloud.io/v3/flowDefinitions/...` while browsing the variants in Pages.
+Optional `scope` parameter can be also used in case you use PAGES_PERSONALIZE_SCOPE environment variable in your XM Cloud environment.
+
 ### Sitecore Platform Project
 
 This Visual Studio / MSBuild project is used to deploy code and configuration to the main Sitecore platform roles, known as Content Management (CM). (This sample uses the XM Cloud container topology and thus only has a Standalone `cm`.)
@@ -62,7 +102,7 @@ You can also build or run the Next.js application directly using `npm` commands 
 
 #### Storybook
 
-The project uses [Storybook](https://github.com/storybookjs/storybook) for "disconnected" development. Standard JSS "disconnected" mode is not available in XM Cloud solution templates. `jss start` runs connected and expects Sitecore to be running using the provided Docker-compose container environment.
+The project uses [Storybook](https://github.com/storybookjs/storybook) for "disconnected" development. Standard JSS "disconnected" mode is not available in XM Cloud solution templates. `jss start` runs connected and expects Sitecore to be running using the provided Docker compose container environment.
 
 To browse the existing stories, run `jss storybook` or `npm run storybook`.
 
@@ -171,7 +211,7 @@ To add new icons to the EdgeIcons pack download your selected icons in a `.png` 
 
 #### Generating the ZIP file
 
-In order to be able to use the icons as rendering icons they need to be in a `.zip` format with the following structure: `EdgeIcons.zip\EdgeIcons\[size]x[size]`. To create a zip file right-click the EdgeIcons folder and select *Send to > Compressed (zipped) folder*.
+In order to be able to use the icons as rendering icons they need to be in a `.zip` format with the following structure: `EdgeIcons.zip\EdgeIcons\[size]x[size]`. To create a zip file right-click the EdgeIcons folder and select _Send to > Compressed (zipped) folder_.
 
 #### Quick Deploy and Test Icons
 
@@ -207,7 +247,7 @@ The content of the project is mapped to the Rendering container using a Docker v
 
 #### Debugging the Rendering Next.js Project
 
-Debugging of the Next.js application is possible by using the `start:connected` or `start` scripts (they do the same thing) from the Next.js `package.json`, and the pre-configured *Attach to Process* VS Code launch configuration.
+Debugging of the Next.js application is possible by using the `start:connected` or `start` scripts (they do the same thing) from the Next.js `package.json`, and the pre-configured _Attach to Process_ VS Code launch configuration.
 
 #### Building the Rendering Next.js Project Locally
 

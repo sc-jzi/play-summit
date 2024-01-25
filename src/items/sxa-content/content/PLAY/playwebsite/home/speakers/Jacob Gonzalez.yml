@@ -7,6 +7,13 @@ SharedFields:
 - ID: "9b0343a9-9f69-4e0f-a059-9215bc8fe422"
   Hint: EntityIdentifier
   Value: "_CwJC-t78EuxAF0eqTm_mQ"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8F0E1432-3729-462B-AD20-DAF067694BCB}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9E443516-E786-4859-967E-D7D0CAE73432}" />
 Languages:
 - Language: en
   Fields:
@@ -19,6 +26,9 @@ Languages:
     - ID: "2256955c-26ab-41b5-8e7a-fc504ea1a307"
       Hint: Sponsors
       Value: "{C5CEF7C2-8DC6-4B8A-9AD4-D04DEB7B5DAB}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
     - ID: "44a57340-61f8-48a2-84a8-bc5d16929a3d"
       Hint: Location
       Value: Tampa Bay, Florida
@@ -27,7 +37,7 @@ Languages:
       Value: "{01E09652-ABD7-4BB0-AD96-E609966330BD}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8e7ff26f-1b21-4ec1-933e-51626882c7ad"
+      Value: "7b84da8a-1177-457a-b30b-5f6c94b1c620"
     - ID: "94f8d6fc-b9c3-41dc-8cdf-5e967d108a40"
       Hint: Company
       Value: Striva
@@ -37,10 +47,15 @@ Languages:
     - ID: "d0b11041-4e9d-4066-b833-2fb20c0cc47d"
       Hint: Description
       Value: |
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
+        <p>Jacob Gonzalez is a distinguished sports marketing expert with over two decades of experience in the field. Known for his innovative strategies and keen understanding of the sports industry, Jacob has successfully led marketing campaigns for some of the most recognized sports brands and events worldwide.<br />
+        <br />
+        Jacob holds a Bachelor's degree in Marketing and a Master's degree in Sports Management. He began his career with a leading sports marketing agency where his knack for creating impactful campaigns quickly propelled him into leadership roles. Today, Jacob is the CEO of his own sports marketing firm, which advises and collaborates with global sports brands, teams, and athletes.<br />
+        <br />
+        Beyond his professional endeavors, Jacob is a committed advocate for diversity and inclusivity in sports. He has initiated several programs aimed at increasing representation and opportunities for underrepresented groups in the sports industry.<br />
+        <br />
+        Jacob's work has earned him numerous accolades, including the prestigious Sports Marketing Executive of the Year award. His insights on sports marketing trends, fan engagement, and brand development are highly sought after in the industry.<br />
+        <br />
+        At the PLAY! Summit Conference, Jacob will share his expertise on the evolving landscape of sports marketing, including the impact of digital platforms and the role of social responsibility in brand positioning. Known for his dynamic and engaging presentations, Jacob's session is eagerly anticipated at the conference.</p>
     - ID: "d410c57e-fdc1-43f4-b028-8b313217b6f9"
       Hint: JobTitle
       Value: Product Speacialist
@@ -56,4 +71,4 @@ Languages:
     - ID: "f5eb0181-f3ab-4edb-a8f2-630e72f555d9"
       Hint: Picture
       Value: |
-        <image stylelabs-content-id="49433" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/49433/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/c5c75df2222345b890e87bb91872cbc4?v=a2d9223f" mediaid="" stylelabs-content-type="Image" alt="Jacob Gonzalez - No background" height="3077" width="3077" />
+        <image stylelabs-content-id="49433" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/49433/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/c5c75df2222345b890e87bb91872cbc4?v=a2d9223f&amp;t=profile" mediaid="" stylelabs-content-type="Image" alt="Jacob Gonzalez - No background" height="3077" width="3077" />

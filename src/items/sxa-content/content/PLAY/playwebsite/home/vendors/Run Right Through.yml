@@ -7,6 +7,13 @@ SharedFields:
 - ID: "9b0343a9-9f69-4e0f-a059-9215bc8fe422"
   Hint: EntityIdentifier
   Value: hGZchsRPsUGmWXDWkmg7fA
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8F0E1432-3729-462B-AD20-DAF067694BCB}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{2E4EA1C8-56F4-4419-A9DB-1AE92EE90F46}" />
 Languages:
 - Language: en
   Fields:
@@ -31,18 +38,19 @@ Languages:
     - ID: "3c5bc1cb-ad72-444f-bd6f-a9a09b6bc7bb"
       Hint: Speakers
       Value: "{B4A33A3E-D11A-48AC-BC63-1CFD547239E8}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
     - ID: "5f02c96d-6606-4508-8b81-4d4758e06291"
       Hint: Logo
       Value: |
-        <image stylelabs-content-id="34199" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/34199/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/893cf2ebf17344d887e4cc5c35013541?v=bd27157d" mediaid="" stylelabs-content-type="Image" alt="Run Right Through Logo" height="1001" width="1001" />
+        <image stylelabs-content-id="34199" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/34199/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/893cf2ebf17344d887e4cc5c35013541?v=bd27157d&amp;t=medium" mediaid="" stylelabs-content-type="Image" alt="Run Right Through Logo" height="1001" width="1001" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "958045df-16bf-43a1-9325-7289d1753298"
+      Value: "709461bb-c5d8-4a5c-a3f7-b25c60916fdb"
     - ID: "be48543c-ebb6-47d2-a0be-508184f2796b"
       Hint: Description
-      Value: |
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
+      Value: "<p>Run Right Through is a leading brand in the running and athletics industry. They specialize in high-performance running shoes, apparel, and accessories. Known for their innovative designs, advanced materials, and commitment to comfort and durability, Run Right Through products cater to both professional athletes and everyday runners. At the PLAY! Summit Conference, they will be showcasing their latest running gear, including shoes with the latest technology for improved performance and injury prevention.</p>"
     - ID: "d57b5629-9801-4418-9088-8a8dfa8fc84c"
       Hint: Name
       Value: Run Right Through

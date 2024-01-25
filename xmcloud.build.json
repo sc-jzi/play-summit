@@ -7,7 +7,9 @@
             "enabled": true,
             "type": "sxa",
             "lintCommand": "lint",
-            "startCommand": "start:production"
+            "startCommand": "start:production",
+            "buildCommand": "build",
+            "runCommand": "next:start"
         }
     },
     "transforms": [
@@ -23,22 +25,20 @@
               "/sitecore/shell",
               "/sitecore/shell/Applications/Content%20Editor.aspx?sc_bw=1",
               "/sitecore/client/Applications/Launchpad",
-              "/Utilities/Hotfix.aspx",
-              "/Utilities/InitializeComponentsLibraryId.aspx"
+              "/Utilities/InitializeComponentsLibraryId.aspx",
+              "/Utilities/InitializePointOfSale.aspx"
             ]
           },
           "populateSchema": {
             "indexNames": [
               "sitecore_core_index",
-              "sitecore_master_index",
-              "sitecore_horizon_index"
+              "sitecore_master_index"
             ]
           },
           "reindex": {
             "indexNames": [
               "sitecore_core_index",
-              "sitecore_master_index",
-              "sitecore_horizon_index"
+              "sitecore_master_index"
             ]
           },
           "publish": {

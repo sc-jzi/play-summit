@@ -1,4 +1,4 @@
-import { Field, ImageField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, Image, ImageField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import InfoText from '../NonSitecore/InfoText';
 import { faCalendar, faClock, faDoorOpen } from '@fortawesome/free-solid-svg-icons';
@@ -6,6 +6,7 @@ import { getSessionDays, getSessionTime } from '../../helpers/DateHelper';
 import { Room } from 'src/types/room';
 import { Day } from 'src/types/day';
 import { Timeslot } from 'src/interfaces/Timeslot';
+import { useI18n } from 'next-localization';
 
 export type SessionInformationPageHeroProps = ComponentProps & {
   fields: {
@@ -24,31 +25,21 @@ export type SessionInformationPageHeroProps = ComponentProps & {
 */
 const SessionInformationPageHero = (props: SessionInformationPageHeroProps): JSX.Element => {
   const premiumSessionQualificative = props?.fields?.Premium?.value ? 'premium' : '';
+  const { t } = useI18n();
 
   return (
     <section
       className={`information-page-hero session-information-page-hero ${premiumSessionQualificative}`}
     >
-      <div
-        className="background-container"
-        style={{
-          backgroundImage: 'url(' + props?.fields?.Image?.value?.src + ')',
-        }}
-      >
+      <div className="background-container">
+        <Image field={props.fields.Image} alt="Image" loading="lazy" />
         <div className="content">
-          <div
-            className="image-container bg-cover  bg-center flex-1 min-h-full"
-            style={{
-              background:
-                'linear-gradient(to right, rgba(60, 60, 60, 0) 70%, rgba(0, 0, 0, 1) 100%)',
-            }}
-          ></div>
           <div className="content-container">
             <div className="container-content-text">
               <div>
                 <p className="title">
-                  Explore the{' '}
-                  <span className="information-type">{premiumSessionQualificative}</span> session:
+                  {t('Explore the ' + premiumSessionQualificative + ' session') ||
+                    'Explore the ' + premiumSessionQualificative + ' session'}
                 </p>
                 <h1 className="name">
                   <Text field={props?.fields?.Name} />

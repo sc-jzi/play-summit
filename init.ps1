@@ -38,11 +38,11 @@ Write-Host "Preparing your Sitecore Containers environment!" -ForegroundColor Gr
 
 # Check for Sitecore Gallery
 Import-Module PowerShellGet
-$SitecoreGallery = Get-PSRepository | Where-Object { $_.SourceLocation -eq "https://sitecore.myget.org/F/sc-powershell/api/v2" }
+$SitecoreGallery = Get-PSRepository | Where-Object { $_.Name -eq "SitecoreGallery"}
 if (-not $SitecoreGallery) {
     Write-Host "Adding Sitecore PowerShell Gallery..." -ForegroundColor Green
     Unregister-PSRepository -Name SitecoreGallery -ErrorAction SilentlyContinue
-    Register-PSRepository -Name SitecoreGallery -SourceLocation https://sitecore.myget.org/F/sc-powershell/api/v2 -InstallationPolicy Trusted
+    Register-PSRepository -Name SitecoreGallery -SourceLocation https://nuget.sitecore.com/resources/v2 -InstallationPolicy Trusted
     $SitecoreGallery = Get-PSRepository -Name SitecoreGallery
 }
 
@@ -128,10 +128,12 @@ if ($InitEnv) {
     Set-EnvFileVariable "REPORTING_API_KEY" -Value (Get-SitecoreRandomString 128 -DisallowSpecial)
 
     # TELERIK_ENCRYPTION_KEY = random 64-128 chars
-    Set-EnvFileVariable "TELERIK_ENCRYPTION_KEY" -Value (Get-SitecoreRandomString 128)
+    # DEMO TEAM CUSTOMIZATION - Add -DisallowSpecial
+    Set-EnvFileVariable "TELERIK_ENCRYPTION_KEY" -Value (Get-SitecoreRandomString 128 -DisallowSpecial)
 
     # MEDIA_REQUEST_PROTECTION_SHARED_SECRET
-    Set-EnvFileVariable "MEDIA_REQUEST_PROTECTION_SHARED_SECRET" -Value (Get-SitecoreRandomString 64)
+    # DEMO TEAM CUSTOMIZATION - Add -DisallowSpecial
+    Set-EnvFileVariable "MEDIA_REQUEST_PROTECTION_SHARED_SECRET" -Value (Get-SitecoreRandomString 64 -DisallowSpecial)
 
     # SQL_SA_PASSWORD
     # Need to ensure it meets SQL complexity requirements

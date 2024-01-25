@@ -7,6 +7,13 @@ SharedFields:
 - ID: "9b0343a9-9f69-4e0f-a059-9215bc8fe422"
   Hint: EntityIdentifier
   Value: 6QAjwGoVTEWFdGMoy4b3_A
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8F0E1432-3729-462B-AD20-DAF067694BCB}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{2961D3C6-1E89-486D-B2E3-C50CF71D8A68}" />
 Languages:
 - Language: en
   Fields:
@@ -31,21 +38,22 @@ Languages:
     - ID: "3c5bc1cb-ad72-444f-bd6f-a9a09b6bc7bb"
       Hint: Speakers
       Value: "{214DE422-5240-44D6-8279-1454742A55FE}|{92BBBDC4-23AE-480D-964A-19E005E9EDAA}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
     - ID: "5f02c96d-6606-4508-8b81-4d4758e06291"
       Hint: Logo
       Value: |
-        <image stylelabs-content-id="33922" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/33922/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/b73b74e73acf4c609f1c6cd669a7b2f3?v=9cb725e4" mediaid="" stylelabs-content-type="Image" alt="SyndeyCummings Logo" height="1001" width="1001" />
+        <image stylelabs-content-id="33922" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/33922/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/b73b74e73acf4c609f1c6cd669a7b2f3?v=9cb725e4&amp;t=medium" mediaid="" stylelabs-content-type="Image" alt="SyndeyCummings Logo" height="1001" width="1001" />
     - ID: "6a7f0807-1669-4c5b-bcd7-db9fc0bc86b3"
       Hint: Sessions
       Value: "{F31705C9-7A5A-42DB-8651-B0665EEEC77B}|{7A6E3432-E82B-4F09-A2AE-5D13646E0BD6}|{57011604-34AF-40B5-8892-5A194F76EEBE}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b35405aa-d353-4f91-bfc3-2fc65fec228a"
+      Value: "8c959f66-58bd-4aba-885b-8b051470517f"
     - ID: "be48543c-ebb6-47d2-a0be-508184f2796b"
       Hint: Description
-      Value: |
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
+      Value: "<p>Sydney Cummings is a renowned fitness trainer and entrepreneur. She is the founder of Royal Change, a digital fitness platform that provides a variety of high-intensity workout programs. Known for her dynamic approach to fitness, Sydney offers a wide range of workout styles including strength training, HIIT, cardio, and more. Her mission is to help individuals achieve their fitness goals through effective and engaging workouts that can be done anywhere. At the PLAY! Summit Conference, Sydney Cummings will be sharing her expertise on fitness training and discussing her innovative approach to digital fitness.</p>"
     - ID: "d57b5629-9801-4418-9088-8a8dfa8fc84c"
       Hint: Name
       Value: Sydney Cummings

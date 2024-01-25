@@ -7,6 +7,13 @@ SharedFields:
 - ID: "9b0343a9-9f69-4e0f-a059-9215bc8fe422"
   Hint: EntityIdentifier
   Value: 3_mT9PX50UChCtxQCIJR6g
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8F0E1432-3729-462B-AD20-DAF067694BCB}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{2F543A94-3C6E-4E82-B246-38DBA272AB25}" />
 Languages:
 - Language: en
   Fields:
@@ -31,16 +38,19 @@ Languages:
     - ID: "3c5bc1cb-ad72-444f-bd6f-a9a09b6bc7bb"
       Hint: Speakers
       Value: "{AFB23041-6733-44B0-843C-193713F55C7D}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
     - ID: "5f02c96d-6606-4508-8b81-4d4758e06291"
       Hint: Logo
       Value: |
-        <image stylelabs-content-id="33988" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/33988/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/fddf681166144085b1aa1bef893fca9b?v=df31289a" mediaid="" stylelabs-content-type="Image" alt="CenterCycle Logo" height="1001" width="1001" />
+        <image stylelabs-content-id="33988" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/33988/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/fddf681166144085b1aa1bef893fca9b?v=df31289a&amp;t=medium" mediaid="" stylelabs-content-type="Image" alt="CenterCycle Logo" height="1001" width="1001" />
     - ID: "6a7f0807-1669-4c5b-bcd7-db9fc0bc86b3"
       Hint: Sessions
       Value: "{71B49CE4-5034-436E-BE7F-DB838C8FDFEF}|{F31705C9-7A5A-42DB-8651-B0665EEEC77B}|{7C9530B9-E948-4A84-9A6F-9A3D27B5CB42}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "68dcf976-592e-4b31-b0f2-b308a6f80f86"
+      Value: "6cae21e7-4528-4b8b-bad5-d9005f91ef06"
     - ID: "be48543c-ebb6-47d2-a0be-508184f2796b"
       Hint: Description
       Value: |

@@ -4,16 +4,14 @@ import { getSessionTime } from '../../helpers/DateHelper';
 import { GraphQLSession } from 'src/types/session';
 import InfoText from '../NonSitecore/InfoText';
 import { faClock, faDoorOpen, faUser } from '@fortawesome/free-solid-svg-icons';
+import { useI18n } from 'next-localization';
 
-type SessionListItemProps = GraphQLSession & {
-  showSpeakers: boolean;
-};
-
-const SessionListItem = (props: SessionListItemProps): JSX.Element => {
+const SessionListItem = (props: GraphQLSession): JSX.Element => {
   const premiumCssClass = props.premium?.value ? 'premium' : '';
+  const { t } = useI18n();
 
   const ticketTypeBadge = props.premium?.value && (
-    <span className="session-info-ticket">premium</span>
+    <span className="session-info-ticket">{t('premium') || 'premium'}</span>
   );
 
   const day =
@@ -41,21 +39,19 @@ const SessionListItem = (props: SessionListItemProps): JSX.Element => {
       </InfoText>
     );
 
-  const speakers = props.showSpeakers &&
-    props.speakers?.targetItems &&
-    props.speakers.targetItems.length > 0 && (
-      <>
-        {props.speakers.targetItems.map((speaker, index) => (
-          <div className="speaker-name" key={index}>
-            <InfoText Icon={faUser}>
-              <Link href={speaker.url.path}>
-                <Text field={speaker.name} tag="a" />
-              </Link>
-            </InfoText>
-          </div>
-        ))}
-      </>
-    );
+  const speakers = props.speakers?.targetItems && props.speakers?.targetItems?.length > 0 && (
+    <>
+      {props.speakers.targetItems.map((speaker, index) => (
+        <div className="speaker-name" key={index}>
+          <InfoText Icon={faUser}>
+            <Link href={speaker.url.path}>
+              <Text field={speaker.name} tag="a" />
+            </Link>
+          </InfoText>
+        </div>
+      ))}
+    </>
+  );
 
   return (
     <div className={`information-block ${premiumCssClass}`}>
@@ -71,7 +67,7 @@ const SessionListItem = (props: SessionListItemProps): JSX.Element => {
         {room}
         <div className="info-col-cta">
           <Link href={props.url.path} className="btn-main">
-            More Information
+            {t('More Information') || 'More Information'}
           </Link>
         </div>
       </div>
@@ -79,19 +75,31 @@ const SessionListItem = (props: SessionListItemProps): JSX.Element => {
   );
 };
 
-type SessionListProps = {
-  sessions: GraphQLSession[];
-  showSpeakers: boolean;
+export type SessionListProps = {
+  fields: {
+    data: {
+      contextItem: {
+        sessions: {
+          targetItems: GraphQLSession[];
+        };
+      };
+    };
+  };
 };
 
 const SessionList = (props: SessionListProps): JSX.Element => {
-  const sessions = props.sessions && props.sessions.length > 0 && (
-    <div className="session-list">
-      {props.sessions.map((session, index) => (
-        <SessionListItem {...session} showSpeakers={props.showSpeakers} key={index} />
-      ))}
-    </div>
-  );
+  const { t } = useI18n();
+  const sessions =
+    props?.fields?.data?.contextItem?.sessions?.targetItems &&
+    props?.fields?.data?.contextItem?.sessions?.targetItems.length > 0 ? (
+      <div className="session-list">
+        {props?.fields?.data?.contextItem?.sessions?.targetItems.map((session, index) => (
+          <SessionListItem {...session} key={index} />
+        ))}
+      </div>
+    ) : (
+      <p>{t('No sessions') || 'No sessions '}</p>
+    );
 
   return <>{sessions}</>;
 };

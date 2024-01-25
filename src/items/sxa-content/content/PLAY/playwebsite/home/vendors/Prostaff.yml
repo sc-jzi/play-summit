@@ -7,6 +7,13 @@ SharedFields:
 - ID: "9b0343a9-9f69-4e0f-a059-9215bc8fe422"
   Hint: EntityIdentifier
   Value: bQ2_w8g9ekargCDUscmf9g
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8F0E1432-3729-462B-AD20-DAF067694BCB}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{EFD1D9A6-AAAF-402F-B157-340AB292BC67}" />
 Languages:
 - Language: en
   Fields:
@@ -28,21 +35,22 @@ Languages:
     - ID: "36288362-9494-4174-a8a2-d846d958149d"
       Hint: Level
       Value: Platinum
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
     - ID: "5f02c96d-6606-4508-8b81-4d4758e06291"
       Hint: Logo
       Value: |
-        <image stylelabs-content-id="34188" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/34188/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/ed3fa90112ad4c298b0429ce545c5401?v=d91651cd" mediaid="" stylelabs-content-type="Image" alt="ProStaff Logo" height="1001" width="1001" />
+        <image stylelabs-content-id="34188" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/34188/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/ed3fa90112ad4c298b0429ce545c5401?v=d91651cd&amp;t=medium" mediaid="" stylelabs-content-type="Image" alt="ProStaff Logo" height="1001" width="1001" />
     - ID: "6a7f0807-1669-4c5b-bcd7-db9fc0bc86b3"
       Hint: Sessions
       Value: "{76B1D64B-C80D-4FE8-8FF2-7FF22360E341}|{DB5BFBE7-B584-4BBE-94C5-A67F20F1BB81}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3a5c9f91-aaa4-4c9c-be91-4f3f5ac16f50"
+      Value: "a261e570-d8c7-49a0-83f5-c63c8980c4b0"
     - ID: "be48543c-ebb6-47d2-a0be-508184f2796b"
       Hint: Description
-      Value: |
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
+      Value: "<p>Prostaff is a renowned brand in the sports industry, specializing in high-quality equipment for various sporting disciplines. They are known for their professional-grade gear, which is trusted by athletes and sports enthusiasts around the world. Prostaff's product range includes everything from tennis rackets and golf clubs to basketballs and soccer cleats. At the PLAY! Summit Conference, Prostaff will be showcasing their latest product innovations and sharing their commitment to improving sports performance through superior equipment.</p>"
     - ID: "d57b5629-9801-4418-9088-8a8dfa8fc84c"
       Hint: Name
       Value: Prostaff

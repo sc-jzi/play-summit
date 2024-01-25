@@ -7,6 +7,13 @@ SharedFields:
 - ID: "9b0343a9-9f69-4e0f-a059-9215bc8fe422"
   Hint: EntityIdentifier
   Value: XvkuMwioqkec6hRWsXGnFg
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8F0E1432-3729-462B-AD20-DAF067694BCB}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{A7C0C4B4-873F-4909-B75F-81A31BB988B7}" />
 Languages:
 - Language: en
   Fields:
@@ -19,6 +26,9 @@ Languages:
     - ID: "2256955c-26ab-41b5-8e7a-fc504ea1a307"
       Hint: Sponsors
       Value: "{8418E88D-2B0E-491D-9E8C-3243B7BC02FD}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
     - ID: "44a57340-61f8-48a2-84a8-bc5d16929a3d"
       Hint: Location
       Value: Los Angeles, California
@@ -27,7 +37,7 @@ Languages:
       Value: "{63F36064-9C90-48E1-B776-99A1FCCD9866}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3410a6aa-74ad-43f8-a131-2cbd57122bd0"
+      Value: "86596965-2c36-44bd-879f-8b11f35ea89a"
     - ID: "94f8d6fc-b9c3-41dc-8cdf-5e967d108a40"
       Hint: Company
       Value: Redsand
@@ -53,4 +63,4 @@ Languages:
     - ID: "f5eb0181-f3ab-4edb-a8f2-630e72f555d9"
       Hint: Picture
       Value: |
-        <image stylelabs-content-id="49474" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/49474/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/ccc946a0a0044535943f1254374dc182?v=922bf504" mediaid="" stylelabs-content-type="Image" alt="Ryan Benton - No background" height="5694" width="5693" />
+        <image stylelabs-content-id="49474" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/49474/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/ccc946a0a0044535943f1254374dc182?v=922bf504&amp;t=profile" mediaid="" stylelabs-content-type="Image" alt="Ryan Benton - No background" height="5694" width="5693" />
