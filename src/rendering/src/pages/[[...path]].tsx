@@ -6,18 +6,26 @@ import {
   RenderingType,
   SitecoreContext,
   ComponentPropsContext,
-  handleEditorFastRefresh,
   EditingComponentPlaceholder,
   StaticPath,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import { handleEditorFastRefresh } from '@sitecore-jss/sitecore-jss-nextjs/utils';
 import { SitecorePageProps } from 'lib/page-props';
 import { sitecorePagePropsFactory } from 'lib/page-props-factory';
-// different componentFactory method will be used based on whether page is being edited
-import { componentFactory, editingComponentFactory } from 'temp/componentFactory';
+import { componentBuilder } from 'temp/componentBuilder';
 import { sitemapFetcher } from 'lib/sitemap-fetcher';
 import { initialize as initializeSend } from '../services/SendService'; // DEMO TEAM CUSTOMIZATION - Sitecore Send integration
+import { usePathname } from 'next/navigation';
+import { PageController, trackEntityPageViewEvent } from '@sitecore-search/react';
+import { fetchUserProfileData, isSearchSDKEnabled } from '../services/SearchSDKService';
+import { storeSearchProfileData } from '../services/CdpService';
 
-const SitecorePage = ({ notFound, componentProps, layoutData }: SitecorePageProps): JSX.Element => {
+const SitecorePage = ({
+  notFound,
+  componentProps,
+  layoutData,
+  headLinks,
+}: SitecorePageProps): JSX.Element => {
   useEffect(() => {
     // Since Sitecore editors do not support Fast Refresh, need to refresh editor chromes after Fast Refresh finished
     handleEditorFastRefresh();
@@ -27,6 +35,27 @@ const SitecorePage = ({ notFound, componentProps, layoutData }: SitecorePageProp
   useEffect(() => {
     initializeSend(layoutData.sitecore.context.pageState);
   }, [layoutData.sitecore.context.pageState]);
+  // END CUSTOMIZATION
+
+  // DEMO TEAM CUSTOMIZATION - Search SDK integration
+  const pageUri = usePathname();
+  useEffect(() => {
+    (async () => {
+      if (isSearchSDKEnabled) {
+        PageController.getContext().setPageUri(pageUri);
+        await trackEntityPageViewEvent('content', {
+          items: [{ id: layoutData.sitecore.route.itemId }],
+        });
+
+        // Save corresponding pageUri to session storage as a workaround because Search API does not return custom attributes
+        sessionStorage.setItem(layoutData.sitecore.route.itemId, pageUri);
+
+        const userProfileData = await fetchUserProfileData();
+
+        storeSearchProfileData(userProfileData);
+      }
+    })();
+  }, [pageUri, layoutData.sitecore.route.itemId]);
   // END CUSTOMIZATION
 
   if (notFound || !layoutData.sitecore.route) {
@@ -41,7 +70,7 @@ const SitecorePage = ({ notFound, componentProps, layoutData }: SitecorePageProp
   return (
     <ComponentPropsContext value={componentProps}>
       <SitecoreContext
-        componentFactory={isEditing ? editingComponentFactory : componentFactory}
+        componentFactory={componentBuilder.getComponentFactory({ isEditing })}
         layoutData={layoutData}
       >
         {/*
@@ -51,7 +80,7 @@ const SitecorePage = ({ notFound, componentProps, layoutData }: SitecorePageProp
         {isComponentRendering ? (
           <EditingComponentPlaceholder rendering={layoutData.sitecore.route} />
         ) : (
-          <Layout layoutData={layoutData} />
+          <Layout layoutData={layoutData} headLinks={headLinks} />
         )}
       </SitecoreContext>
     </ComponentPropsContext>
@@ -95,13 +124,6 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 // revalidation (or fallback) is enabled and a new request comes in.
 export const getStaticProps: GetStaticProps = async (context) => {
   const props = await sitecorePagePropsFactory.create(context);
-
-  // Check if we have a redirect (e.g. custom error page)
-  if (props.redirect) {
-    return {
-      redirect: props.redirect,
-    };
-  }
 
   return {
     props,

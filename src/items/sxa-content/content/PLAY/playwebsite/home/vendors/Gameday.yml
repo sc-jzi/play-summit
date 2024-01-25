@@ -7,6 +7,13 @@ SharedFields:
 - ID: "9b0343a9-9f69-4e0f-a059-9215bc8fe422"
   Hint: EntityIdentifier
   Value: P9XWZ3FrkU6jTVyPP1YqoA
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8F0E1432-3729-462B-AD20-DAF067694BCB}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{326A2C4C-3F2F-46B1-BD89-EA023978429B}" />
 Languages:
 - Language: en
   Fields:
@@ -31,23 +38,22 @@ Languages:
     - ID: "3c5bc1cb-ad72-444f-bd6f-a9a09b6bc7bb"
       Hint: Speakers
       Value: "{ABC74708-2A5A-4AD9-94E6-15A6029252EC}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
     - ID: "5f02c96d-6606-4508-8b81-4d4758e06291"
       Hint: Logo
       Value: |
-        <image stylelabs-content-id="33954" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/33954/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/f11314c7d09e43e0a645185a255c99cf?v=537a6046" mediaid="" stylelabs-content-type="Image" alt="Gameday Logo" height="1001" width="1001" />
+        <image stylelabs-content-id="33954" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/33954/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/f11314c7d09e43e0a645185a255c99cf?v=537a6046&amp;t=medium" mediaid="" stylelabs-content-type="Image" alt="Gameday Logo" height="1001" width="1001" />
     - ID: "6a7f0807-1669-4c5b-bcd7-db9fc0bc86b3"
       Hint: Sessions
       Value: "{F31705C9-7A5A-42DB-8651-B0665EEEC77B}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b88969b6-72f8-4fd2-a6b9-0e5377b61355"
+      Value: "d0e1125e-15a9-44dd-b59e-533017deac0c"
     - ID: "be48543c-ebb6-47d2-a0be-508184f2796b"
       Hint: Description
-      Value: |
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
+      Value: "<p>Gameday is a leading sports apparel and equipment brand, known for its innovative, high-performance products. They cater to a wide range of sports disciplines and are committed to helping athletes and fitness enthusiasts achieve their best performance. Gameday offers a diverse selection of items from activewear, shoes, to sports gear. At the PLAY! Summit Conference, Gameday will be showcasing their latest collection, demonstrating their commitment to quality, functionality, and design.</p>"
     - ID: "d57b5629-9801-4418-9088-8a8dfa8fc84c"
       Hint: Name
       Value: Gameday

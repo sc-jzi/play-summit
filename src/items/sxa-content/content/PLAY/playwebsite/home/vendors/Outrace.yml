@@ -7,6 +7,13 @@ SharedFields:
 - ID: "9b0343a9-9f69-4e0f-a059-9215bc8fe422"
   Hint: EntityIdentifier
   Value: BMSAvK6iX0WxY3kQ9H8wCQ
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8F0E1432-3729-462B-AD20-DAF067694BCB}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{E30959D1-CFD4-49C9-84DA-68A9A97B57B5}" />
 Languages:
 - Language: en
   Fields:
@@ -31,21 +38,22 @@ Languages:
     - ID: "3c5bc1cb-ad72-444f-bd6f-a9a09b6bc7bb"
       Hint: Speakers
       Value: "{BB90AE1B-06D6-480D-A238-F2998721A00D}|{465AEE87-D244-403F-B913-A979FE00F7A4}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
     - ID: "5f02c96d-6606-4508-8b81-4d4758e06291"
       Hint: Logo
       Value: |
-        <image stylelabs-content-id="33980" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/33980/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/f4f6057bfdf345d389723e0d0d8fd095?v=dc95288b" mediaid="" stylelabs-content-type="Image" alt="Outrace Logo" height="1001" width="1001" />
+        <image stylelabs-content-id="33980" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/33980/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/f4f6057bfdf345d389723e0d0d8fd095?v=dc95288b&amp;t=medium" mediaid="" stylelabs-content-type="Image" alt="Outrace Logo" height="1001" width="1001" />
     - ID: "6a7f0807-1669-4c5b-bcd7-db9fc0bc86b3"
       Hint: Sessions
       Value: "{F31705C9-7A5A-42DB-8651-B0665EEEC77B}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4acfcb3a-7a45-4e95-9734-d400e7656fce"
+      Value: "1ba0f555-4103-4d85-9067-73bef1ede5eb"
     - ID: "be48543c-ebb6-47d2-a0be-508184f2796b"
       Hint: Description
-      Value: |
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
+      Value: "<p>Outrace is a cutting-edge fitness equipment company, known for its innovative modular training systems. Their products are designed to accommodate a wide variety of training techniques and are highly customizable, making them suitable for all types of fitness facilities and users. Outrace's equipment is known for its quality, durability, and adaptability, offering endless possibilities for functional and suspended training exercises. At the PLAY! Summit Conference, Outrace will be demonstrating their latest training systems and sharing their vision for the future of fitness training.</p>"
     - ID: "d57b5629-9801-4418-9088-8a8dfa8fc84c"
       Hint: Name
       Value: Outrace

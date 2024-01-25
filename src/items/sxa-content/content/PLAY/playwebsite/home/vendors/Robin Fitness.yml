@@ -7,6 +7,13 @@ SharedFields:
 - ID: "9b0343a9-9f69-4e0f-a059-9215bc8fe422"
   Hint: EntityIdentifier
   Value: 1sn6amv_o0id5QjSp7DCAQ
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8F0E1432-3729-462B-AD20-DAF067694BCB}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5313F88E-B3D6-49AF-9098-661D91BBFBF0}" />
 Languages:
 - Language: en
   Fields:
@@ -31,21 +38,22 @@ Languages:
     - ID: "3c5bc1cb-ad72-444f-bd6f-a9a09b6bc7bb"
       Hint: Speakers
       Value: "{32C9CADA-A708-49DB-A42C-220443BD3C59}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
     - ID: "5f02c96d-6606-4508-8b81-4d4758e06291"
       Hint: Logo
       Value: |
-        <image stylelabs-content-id="34128" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/34128/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/c1ae08cf01ee4dcf8e06dd5b4d3d68e1?v=11032c0a" mediaid="" stylelabs-content-type="Image" alt="RobinFitness Logo" height="1001" width="1001" />
+        <image stylelabs-content-id="34128" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/34128/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/c1ae08cf01ee4dcf8e06dd5b4d3d68e1?v=11032c0a&amp;t=medium" mediaid="" stylelabs-content-type="Image" alt="RobinFitness Logo" height="1001" width="1001" />
     - ID: "6a7f0807-1669-4c5b-bcd7-db9fc0bc86b3"
       Hint: Sessions
       Value: "{F31705C9-7A5A-42DB-8651-B0665EEEC77B}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2ebec57a-543d-4b63-bf9a-b5b385dbede0"
+      Value: "a5a89a41-baa1-4b84-b36a-01c4dd24caa1"
     - ID: "be48543c-ebb6-47d2-a0be-508184f2796b"
       Hint: Description
-      Value: |
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
+      Value: "<p>Robin Fitness is a forward-thinking fitness brand that specializes in creating innovative, high-quality home workout equipment and digital fitness solutions. Their product line includes everything from weights and resistance bands to smart fitness machines, all designed to enhance the home workout experience. Robin Fitness also offers a fitness app with personalized training programs and live workout sessions. At the PLAY! Summit Conference, Robin Fitness will be showcasing their latest home fitness solutions, demonstrating how technology and innovation can make fitness more accessible and enjoyable.</p>"
     - ID: "d57b5629-9801-4418-9088-8a8dfa8fc84c"
       Hint: Name
       Value: Robin Fitness

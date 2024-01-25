@@ -7,6 +7,13 @@ SharedFields:
 - ID: "9b0343a9-9f69-4e0f-a059-9215bc8fe422"
   Hint: EntityIdentifier
   Value: WcdRsyyPVkm9h32eX_WhbQ
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8F0E1432-3729-462B-AD20-DAF067694BCB}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{A93B2B15-AAF9-4A40-840E-1F65E9F103B0}" />
 Languages:
 - Language: en
   Fields:
@@ -28,21 +35,22 @@ Languages:
     - ID: "36288362-9494-4174-a8a2-d846d958149d"
       Hint: Level
       Value: Platinum
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
     - ID: "5f02c96d-6606-4508-8b81-4d4758e06291"
       Hint: Logo
       Value: |
-        <image stylelabs-content-id="34184" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/34184/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/95621f62b3c441ffa829e51f26317386?v=38081763" mediaid="" stylelabs-content-type="Image" alt="OverUnder Logo" height="1001" width="1001" />
+        <image stylelabs-content-id="34184" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/34184/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/95621f62b3c441ffa829e51f26317386?v=38081763&amp;t=medium" mediaid="" stylelabs-content-type="Image" alt="OverUnder Logo" height="1001" width="1001" />
     - ID: "6a7f0807-1669-4c5b-bcd7-db9fc0bc86b3"
       Hint: Sessions
       Value: "{F31705C9-7A5A-42DB-8651-B0665EEEC77B}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b462d42c-2850-4106-ba70-7f07e6981448"
+      Value: "574b7483-4f97-4eb7-9be9-a2a1627afd1c"
     - ID: "be48543c-ebb6-47d2-a0be-508184f2796b"
       Hint: Description
-      Value: |
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
+      Value: "<p>Overunder is a dynamic sports and outdoor equipment brand renowned for creating versatile, high-quality gear for a wide range of sports and outdoor activities. Their product range includes everything from climbing ropes and harnesses to camping gear and outdoor clothing. Overunder is committed to supporting adventurers, athletes, and fitness enthusiasts in their pursuit of active lifestyles. At the PLAY! Summit Conference, Overunder will be showcasing their latest products, sharing their innovative approaches to design and functionality, and demonstrating their commitment to sustainable and responsible outdoor practices.</p>"
     - ID: "d57b5629-9801-4418-9088-8a8dfa8fc84c"
       Hint: Name
       Value: Overunder

@@ -2,7 +2,6 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import {
   AxiosDataFetcher,
   GraphQLSitemapXmlService,
-  getPublicUrl,
   AxiosResponse,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { siteResolver } from 'lib/site-resolver';
@@ -56,13 +55,15 @@ const sitemapApi = async (
     return res.redirect('/404');
   }
 
+  const reqtHost = req.headers.host;
+  const reqProtocol = req.headers['x-forwarded-proto'] || 'https';
   const SitemapLinks = sitemaps
     .map((item) => {
       const parseUrl = item.split('/');
       const lastSegment = parseUrl[parseUrl.length - 1];
 
       return `<sitemap>
-        <loc>${getPublicUrl()}/${lastSegment}</loc>
+        <loc>${reqProtocol}://${reqtHost}/${lastSegment}</loc>
       </sitemap>`;
     })
     .join('');

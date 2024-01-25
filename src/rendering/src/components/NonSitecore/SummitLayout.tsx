@@ -40,7 +40,7 @@ const SummitLayout = (props: PropsWithChildren): JSX.Element => {
     rendering: {
       uid: '8ae6e35d-21e3-49a4-9728-29308cf51606',
       componentName: 'Header',
-      dataSource: '/dummy',
+      dataSource: '/AnythingForTheWithDatasourceCheckHocToDisplayTheComponent',
       params: {
         CacheClearingBehavior: 'Clear on publish',
       },
@@ -659,7 +659,7 @@ const SummitLayout = (props: PropsWithChildren): JSX.Element => {
       </header>
       <main>
         <HeaderCdpMessageBar />
-        <div className="component container col-12">
+        <div className="component w-full">
           <div className="component-content">
             <div className="row">{props.children}</div>
           </div>

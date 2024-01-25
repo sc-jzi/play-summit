@@ -7,6 +7,13 @@ SharedFields:
 - ID: "9b0343a9-9f69-4e0f-a059-9215bc8fe422"
   Hint: EntityIdentifier
   Value: CMrBIsqTeUufoVHjPlbDaA
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8F0E1432-3729-462B-AD20-DAF067694BCB}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D8D71371-DB3B-4D68-B085-AE7F145D5754}" />
 Languages:
 - Language: en
   Fields:
@@ -25,17 +32,19 @@ Languages:
     - ID: "21df785e-14dd-4c8d-abff-5ae00b693e5e"
       Hint: Description
       Value: |
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
+        <p>The "Intro to Distance Running" session, presented by Alba, is an invaluable resource for those interested in delving into the world of long-distance running. Experienced runners and professional coaches will provide an in-depth overview of distance running, outlining the necessary preparation, training techniques, and endurance strategies. Attendees will learn how to properly pace themselves, select suitable running gear, and build up their stamina gradually to prevent injuries. The session aims to ensure that participants are well-equipped to start their journey in distance running, regardless of their current fitness level.<br />
+        <br />
+        In the latter part of the session, the focus will shift to the benefits of distance running and how to maintain motivation over long periods. The speakers will discuss the profound physical and mental health benefits of distance running, including enhanced cardiovascular health, improved mental resilience, and weight management. Moreover, they will share tips on setting realistic goals and using Alba's cutting-edge fitness technology to track progress and keep motivation high. By the end of this session, attendees will have gained a comprehensive understanding of distance running, backed by expert advice and innovative fitness solutions.</p>
     - ID: "3647d085-16e3-44ee-a3f7-c613d0fe17ce"
       Hint: Speakers
       Value: "{4C23E8E4-BA94-4840-8888-D769F0F57835}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
     - ID: "4b2d1962-60eb-4cd1-b8e9-a2c2762ec04c"
       Hint: Image
       Value: |
-        <image stylelabs-content-id="38284" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/38284/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/a8776e3945ed4dcab27b694b79dca368?v=b2e95d8a" mediaid="" stylelabs-content-type="Image" alt="Running alone" height="3480" width="5220" />
+        <image stylelabs-content-id="38284" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/38284/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/a8776e3945ed4dcab27b694b79dca368?v=b2e95d8a&amp;t=web" mediaid="" stylelabs-content-type="Image" alt="Running alone" height="3480" width="5220" />
     - ID: "51084853-806c-4e3d-90a3-0eaec3faa3ac"
       Hint: Day
       Value: "{1EB4DC2D-C299-42FF-B3C1-0719E694298E}"
@@ -53,7 +62,7 @@ Languages:
       Value: "{4D920373-9BC1-44A5-A586-0AF23C5711A1}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c444c8c6-7bb3-47b1-bc24-ea2e0b3b7035"
+      Value: "b365ce5a-5149-4706-a4b8-568eed026f71"
     - ID: "cb19a833-48b8-4ad4-a841-09769bbef5c6"
       Hint: Sponsors
       Value: "{5319CA3C-CD21-4D68-A68A-1EAF4D34F63D}"

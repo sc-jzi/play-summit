@@ -1,8 +1,7 @@
 const jssConfig = require('./src/temp/config');
-const { getPublicUrl } = require('@sitecore-jss/sitecore-jss-nextjs');
 const plugins = require('./src/temp/next-config-plugins') || {};
 
-const publicUrl = getPublicUrl();
+const publicUrl = jssConfig.publicUrl;
 
 /**
  * @type {import('next').NextConfig}
@@ -34,7 +33,7 @@ const nextConfig = {
     defaultLocale: jssConfig.defaultLanguage,
     localeDetection: false, // DEMO TEAM CUSTOMIZATION - Disable locale detection
   },
-  
+
   // Enable React Strict Mode
   reactStrictMode: true,
 
@@ -51,11 +50,6 @@ const nextConfig = {
         source: '/-/:path*',
         destination: `${jssConfig.sitecoreApiHost}/-/:path*`,
       },
-      // visitor identification
-      {
-        source: '/layouts/system/:path*',
-        destination: `${jssConfig.sitecoreApiHost}/layouts/system/:path*`,
-      },
       // healthz check
       {
         source: '/healthz',
@@ -65,7 +59,7 @@ const nextConfig = {
       {
         source: '/sitecore/service/:path*',
         destination: `${jssConfig.sitecoreApiHost}/sitecore/service/:path*`,
-      }, 
+      },
     ];
   },
 };
@@ -73,4 +67,4 @@ const nextConfig = {
 module.exports = () => {
   // Run the base config through any configured plugins
   return Object.values(plugins).reduce((acc, plugin) => plugin(acc), nextConfig);
-}
+};

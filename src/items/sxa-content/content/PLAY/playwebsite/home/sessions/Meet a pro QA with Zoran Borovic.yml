@@ -7,6 +7,13 @@ SharedFields:
 - ID: "9b0343a9-9f69-4e0f-a059-9215bc8fe422"
   Hint: EntityIdentifier
   Value: aZhH7psjOUGxWaab4q7sVQ
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8F0E1432-3729-462B-AD20-DAF067694BCB}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5D633028-92EA-4A3E-BAAF-EA2DC2272C82}" />
 Languages:
 - Language: en
   Fields:
@@ -25,17 +32,19 @@ Languages:
     - ID: "21df785e-14dd-4c8d-abff-5ae00b693e5e"
       Hint: Description
       Value: |
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede posuere.</p>
-        
+        <p>The "Meet a Pro: Q&amp;A with Zoran Borovic" session is an interactive segment designed to offer participants unparalleled access to the world-renowned professional athlete, Zoran Borovic. Esteemed for his significant achievements and contributions to his sport, Borovic will share valuable insights from his personal and professional journey. This will provide attendees with an exclusive peek into his training regimen, mental fortitude, resilience, and the challenges he has surmounted on his path to success. This engaging session aims to give attendees a comprehensive understanding of what it takes to excel in the sports arena.<br />
+        <br />
+        During the second half of the session, attendees will have the chance to engage in a direct Q&amp;A with Borovic. This is their opportunity to delve deeper into topics such as his nutritional practices, his techniques for overcoming adversity, and his advice for budding athletes. The session promises to be not just inspiring, but also educational, equipping attendees with practical tips and strategies that they can implement in their own fitness journey. This open conversation with Borovic is a must-attend for anyone passionate about sports and striving to take their game to the next level.</p>
     - ID: "3647d085-16e3-44ee-a3f7-c613d0fe17ce"
       Hint: Speakers
       Value: "{214DE422-5240-44D6-8279-1454742A55FE}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{836E0687-CDFF-4087-9E3B-C8ECAFE11746}"
     - ID: "4b2d1962-60eb-4cd1-b8e9-a2c2762ec04c"
       Hint: Image
       Value: |
-        <image stylelabs-content-id="38487" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/38487/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/757164bf8040434e81e619db7482af52?v=36715615" mediaid="" stylelabs-content-type="Image" alt="Fishing session" height="2256" width="4011" />
+        <image stylelabs-content-id="38487" thumbnailsrc="https://playsummit.sitecoresandbox.cloud/api/gateway/38487/thumbnail" src="https://playsummit.sitecoresandbox.cloud/api/public/content/757164bf8040434e81e619db7482af52?v=36715615&amp;t=web" mediaid="" stylelabs-content-type="Image" alt="Fishing session" height="2256" width="4011" />
     - ID: "51084853-806c-4e3d-90a3-0eaec3faa3ac"
       Hint: Day
       Value: "{A9D94EEC-ED13-45CD-A103-F8860781E38E}"
@@ -53,7 +62,7 @@ Languages:
       Value: "{72DD2F9A-9EA1-4BD3-A8F5-927795E58AF9}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0d2d9cf6-170d-4855-adcd-fd551d2460da"
+      Value: "51a108d4-fc6e-4d76-950f-c02421cc7049"
     - ID: "ed69eacf-5eb2-5050-9d5b-997812318dde"
       Hint: pageTitle
       Value: "Meet a pro: Q&A with Zoran Borovic"
