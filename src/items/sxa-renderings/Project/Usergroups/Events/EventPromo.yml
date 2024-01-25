@@ -7,6 +7,32 @@ SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
   Value: EventPromo
+- ID: "17bb046a-a32a-41b3-8315-81217947611b"
+  Hint: ComponentQuery
+  Value: |
+    query ($datasource: String!, $language:String!) {
+      item(path: $datasource, language: $language) {
+        Title: field(name:"title") {
+          value
+        }
+        Date: field(name: "date") {
+          value,
+          jsonValue
+        }
+        Venue: field(name:"venue") {
+          value
+        }
+        Image: field(name:"image") {
+          value
+        }
+        Blurb: field(name:"blurb") {
+          value
+        }
+        url {
+          path
+        }
+      }
+    }
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Project/Usergroups/Event
@@ -20,4 +46,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bd71fd03-2687-4906-be06-360f9db544a9"
+      Value: "43716f84-b44e-46e1-9f7e-bea968283c19"

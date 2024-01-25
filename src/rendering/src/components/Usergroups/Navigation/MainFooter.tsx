@@ -52,7 +52,7 @@ export type FooterProps = ComponentProps & {
 const MainFooter = (props: FooterProps): JSX.Element => {
   const newDate = new Date();
   const sxaStyles = `${props.params?.styles || ''}`;
-console.log(props);
+
   return (
     <div className={`footer container ${sxaStyles}`}>
       <div className="footer-banner">
