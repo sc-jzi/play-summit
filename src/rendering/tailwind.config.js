@@ -1,9 +1,11 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './src/components/**/*.{js,ts,jsx,tsx}',
+    './src/components/**/**/*.{js,ts,jsx,tsx}',
     './src/*.{js,ts,jsx,tsx}'
   ],
   safelist: [
@@ -44,6 +46,7 @@ module.exports = {
       ...defaultTheme.screens,
     },
     colors: {
+      colors,
       transparent: 'transparent',
       current: 'currentColor',
       white: {

@@ -19,12 +19,15 @@ Languages:
     - ID: "51d16a6f-cf08-4d71-9548-3a95b3f6482c"
       Hint: Title
       Value: Demo Event 1
+    - ID: "7a0803b3-a25e-424c-8fd6-a76d3019a49b"
+      Hint: Blurb
+      Value: "For the first usergroup in 2 years we'll be joining MNP Digita's offices. We'll discuss the new site, X, Y and Z!"
     - ID: "84eaaf6e-911c-46f7-953d-136959e101ce"
       Hint: Content
       Value: <p>Join us for the 1st Ottawa Sitecore Technical User Group meetup of 2024, along with food and drinks. We're at MNP Digital's Ottawa office for this event. There will be talks from experts from the Sitecore community as well as time to catch up with contacts and make new connections.</p>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f24cd42e-2d4f-4f34-8e25-d04f130d72dd"
+      Value: "483f5dbb-1d41-4768-863c-94e72a7656da"
     - ID: "b2152bc5-6faf-458a-957a-c4eedb198853"
       Hint: Venue
       Value: Demo Venue

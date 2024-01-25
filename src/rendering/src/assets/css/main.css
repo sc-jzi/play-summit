@@ -160,7 +160,6 @@
 
 /* Usergroup Event Countdown */
 @import './components/Events/EventCountdown.css';
-@import './components/Events/EventPromo.css';
 
 /* Sponsors */
 @import './components/Sponsors/SelectedSponsorsGrid.css';
