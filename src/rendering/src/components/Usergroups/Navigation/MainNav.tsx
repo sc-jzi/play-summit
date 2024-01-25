@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import { ImageField, Image } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { isCommerceEnabled } from '../../../helpers/CommerceHelper';
-import PreviewSearchContent from '../../PreviewSearchContent/PreviewSearchContent';
+import PreviewSearchWidget from '../../PreviewSearchContent/PreviewSearchContent';
+import { isSearchSDKEnabled } from '../../../services/SearchSDKService';
 
 export type MainNavigationProps = ComponentProps & {
   fields: {
@@ -85,9 +86,11 @@ const MainNav = (props: MainNavigationProps): JSX.Element => {
               ))}
               {shopLink}
             </ul>
-            <div className="search-input-container">
-              <PreviewSearchContent />
-            </div>
+            {isSearchSDKEnabled && (
+              <div className="search-input-container">
+                <PreviewSearchWidget rfkId="rfkid_6" />
+              </div>
+            )}
           </div>
         </div>
       </nav>
