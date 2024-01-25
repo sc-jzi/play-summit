@@ -14,7 +14,9 @@ export type EventPromoProps = ComponentProps & {
                 },
                 Title: Field<string>,
                 Venue: Field<string>,
-                Image: ImageField,
+                Image: {
+                    jsonValue: ImageField
+                },
                 Blurb: Field<string>
             }
         }
@@ -37,7 +39,7 @@ const EventPromo = (props: EventPromoProps): JSX.Element => {
                     <a href="#" className="float-right align-bottom inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-colors-blue-700 rounded-lg hover:bg-colors-blue-800 focus:ring-4 focus:outline-none focus:ring-colors-blue-300 dark:bg-colors-blue-600 dark:hover:bg-colors-blue-700 dark:focus:ring-colors-blue-800">Register</a>
                 </div>
                 <div className="col-span-2">
-                    <Image field={props.fields.data.item.Image} />
+                    <Image field={props.fields.data.item.Image.jsonValue} />
                 </div>
 
             </div>

@@ -23,7 +23,8 @@ SharedFields:
           value
         }
         Image: field(name:"image") {
-          value
+          value,
+          jsonValue
         }
         Blurb: field(name:"blurb") {
           value
@@ -46,4 +47,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "43716f84-b44e-46e1-9f7e-bea968283c19"
+      Value: "251539ea-8f05-46bc-bf50-fc5076dd2304"

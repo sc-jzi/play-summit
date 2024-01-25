@@ -147,6 +147,7 @@ services:
       - ${LOCAL_DEPLOY_PATH}\platform:C:\deploy
       - ${LOCAL_DATA_PATH}\cm:C:\inetpub\wwwroot\App_Data\logs
       - ${HOST_LICENSE_FOLDER}:c:\license
+    mem_limit: 8GB
     environment:
       SITECORE_LICENSE_LOCATION: c:\license\license.xml
       RENDERING_HOST_INTERNAL_URI: "http://rendering:3000"
